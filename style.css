@@ -1,3 +1,11 @@
+/*
+GOOGLE FONTS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap');
+
+/*
+RESETS
+*/
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +36,7 @@ NAVBAR
     height: 100%;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 0rem 0.5rem;
 }
 
 .hamburger {
