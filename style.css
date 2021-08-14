@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global styles */
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+/*
+NAVBAR
+*/
+
+.nav {
+    /* display: grid; */
+    width: 100%;
+    height: 50px;
+}
+
+.nav-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.hamburger {
+    display: inline-block;
+    width: 1.6rem;
+    height: 0.13rem;
+    background: red;
+    cursor:pointer;
+}
+
+.hamburger::before, .hamburger::after {
+    content: "";
+    position: absolute;
+    width: 1.6rem;
+    height: 0.13rem;
+    background: red;
+}
+
+.hamburger::before {
+    transform: translateY(-0.5rem);
+}
+
+.hamburger::after {
+    transform: translateY(0.5rem);
+}
