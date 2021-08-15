@@ -9,6 +9,7 @@ VARIABLES
 :root {
     --brand-font: 'Rock Salt', cursive;
     --main-font: 'Lato', sans-serif;
+    --header-clr: #CDB16E;
 }
 
 /*
@@ -29,7 +30,7 @@ body {
 }
 
 h1 {
-    font-family: var(--brand-font)
+    font-family: var(--brand-font);
 }
 /* global styles */
 ul {
