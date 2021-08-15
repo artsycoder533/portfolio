@@ -45,7 +45,13 @@ a {
 }
 
 .btn {
-
+    text-transform: uppercase;
+    font-family: var(--main-font);
+    border-radius: 0.4rem;
+    background: transparent;
+    border: 1px solid black;
+    width: 8rem;
+    height: 2.5rem;
 }
 /*
 NAVBAR
@@ -97,14 +103,26 @@ hero section
 */
 
 .hero {
-    height: calc(100vh - 75px);
-    /* background: url(./me1.png) no-repeat ; */
+    height: calc(100vh - 50px);
+    display: grid;
+    place-items: center;
+    mix-blend-mode: multiply;
+}
+
+.hero-text {
+    text-align: left;
+    padding: 1rem;
 }
 
 .name {
-    font-family: var(--brand-font);
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
 
 .heading {
-    font-family: --main-font
+    font-family: var(--main-font);
+    font-size: 3.5rem;
+    padding: 1rem 0rem 1.5rem 0rem;
+    text-transform: uppercase
 }
