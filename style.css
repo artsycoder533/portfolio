@@ -4,6 +4,14 @@ GOOGLE FONTS
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Rock+Salt&display=swap');
 
 /*
+VARIABLES
+*/
+:root {
+    --brand-font: 'Rock Salt', cursive;
+    --main-font: 'Lato', sans-serif;
+}
+
+/*
 RESETS
 */
 * {
@@ -12,6 +20,17 @@ RESETS
     box-sizing: border-box;
 }
 
+/*
+GLOBAL STYLES
+*/
+body {
+    font-family: var(--main-font);
+    background-color: lightgray;
+}
+
+h1 {
+    font-family: var(--brand-font)
+}
 /* global styles */
 ul {
     list-style-type: none;
@@ -20,6 +39,14 @@ a {
     text-decoration: none;
 }
 
+.center {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.btn {
+
+}
 /*
 NAVBAR
 */
@@ -33,6 +60,8 @@ NAVBAR
 .nav-header {
     display: grid;
     grid-template-columns: auto auto;
+    background: gray;
+    width: 100%;
     height: 100%;
     align-items: center;
     justify-content: space-between;
@@ -61,4 +90,21 @@ NAVBAR
 
 .hamburger::after {
     transform: translateY(0.5rem);
+}
+
+/*
+hero section
+*/
+
+.hero {
+    height: calc(100vh - 75px);
+    /* background: url(./me1.png) no-repeat ; */
+}
+
+.name {
+    font-family: var(--brand-font);
+}
+
+.heading {
+    font-family: --main-font
 }
