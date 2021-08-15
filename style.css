@@ -93,6 +93,10 @@ NAVBAR
     padding: 0rem 0.5rem;
 }
 
+.brand {
+    font-size: 1rem;
+}
+
 .hamburger {
     display: inline-block;
     width: 1.6rem;
