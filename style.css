@@ -90,7 +90,7 @@ a {
 .btn:hover {
     background: tan;
 }
-}
+
 
 hr {
     margin: 1rem 0;
@@ -103,6 +103,7 @@ NAVBAR
     /* display: grid; */
     width: 100%;
     height: 75px;
+    position: fixed;
 }
 
 .nav-links {
@@ -158,7 +159,7 @@ hero section
 */
 
 .hero {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 75px);
     display: grid;
     place-items: center;
     mix-blend-mode: multiply;
@@ -187,7 +188,7 @@ hero section
 
 .heading {
     font-family: var(--main-font);
-    font-size: 3.5rem;
+    font-size: 6rem;
     padding: 1rem 0rem 1.5rem 0rem;
     text-transform: uppercase
 }
@@ -354,4 +355,11 @@ form .btn {
     border: 2px solid white;
     width: 400px;
     font-size: 3rem;
+}
+
+footer {
+    background: black;
+    color: red;
+    text-align: center;
+    padding: 1rem;
 }
