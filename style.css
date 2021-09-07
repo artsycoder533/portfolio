@@ -58,6 +58,7 @@ a {
 }
 
 .center {
+    width: 90vw;
     max-width: 1400px;
     margin: auto;
 }
@@ -100,15 +101,36 @@ hr {
 NAVBAR
 */
 
-.nav {
-    /* display: grid; */
+header {
     width: 100%;
     height: 75px;
+    display: grid;
+    place-items: center;
+}
+
+.nav {
     position: fixed;
+    width: 100%;
+    max-width: 1400px;
+    /* display: flex;
+    justify-content: center;
+    margin: auto; */
+}
+
+.nav__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.nav__links {
+    display: flex;
 }
 
 
-.hamburger {
+/* .hamburger {
     display: inline-block;
     width: 1.6rem;
     height: 0.13rem;
@@ -170,7 +192,7 @@ hero section
     font-size: 6rem;
     padding: 1rem 0rem 1.5rem 0rem;
     text-transform: uppercase
-}
+} */
 
 /*
 projects section
