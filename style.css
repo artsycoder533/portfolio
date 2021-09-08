@@ -50,10 +50,15 @@ h3 {
 ul {
     list-style-type: none;
 }
+
 a {
     text-decoration: none;
     cursor: pointer;
     display: block;
+}
+
+a:visited {
+    color: white;
 }
 
 .page {
@@ -131,7 +136,7 @@ NAVBAR
     width: 2rem;
     height: 0.25rem;
     background: white;
-    transition: all ease 1s;
+    transition: all ease .5s;
 }
 
 .nav__hamburger::after {
@@ -141,22 +146,22 @@ NAVBAR
     width: 2rem;
     height: 0.25rem;
     background: white;
-    transition: all ease 1s;
+    transition: all ease .5s;
 }
 
 .open {
     background: transparent;
-    transition: all ease 1s;
+    transition: all ease .5s;
 }
 
 .open::before {
     transform: rotate(45deg);
-    transition: all ease 1s;
+    transition: all ease .5s;
 }
 
 .open::after {
     transform: rotate(-45deg);
-    transition: all ease 1s;
+    transition: all ease .5s;
 }
 
 .nav__links {
@@ -220,7 +225,7 @@ SIDEBAR
     height: 100vh;
     width: 100vw;
     transform: translateX(-100%);
-    transition: all ease-in-out 1s;
+    transition: all ease-in-out .5s;
     background: rgba(0, 0, 0, 0.9);
 }
 
@@ -237,17 +242,18 @@ SIDEBAR
     font-size: 2rem;
     color: white;
     letter-spacing: 0.2rem;
+    text-transform: uppercase;
     /* transition: all ease-in-out 1s; */
 }
 
 .sidebar__link:hover {
     color:rgb(226, 195, 122);
-    transition: all ease-in-out 1s;
+    transition: all ease-in-out .5s;
 }
 
 .show {
     transform:translateX(0);
-    transition: all ease 1s;
+    transition: all ease .5s;
 }
 
 /* .hamburger {
