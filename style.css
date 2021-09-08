@@ -31,6 +31,7 @@ GLOBAL STYLES
 body {
     font-family: var(--main-font);
     background-color: lightgray;
+    overflow: hidden;
 }
 
 h1 {
@@ -120,7 +121,7 @@ NAVBAR
 }
 
 .nav__hamburger:hover {
-    color: color:rgb(226, 195, 122);
+    color:rgb(226, 195, 122);
 }
 
 .nav__hamburger::before {
@@ -130,6 +131,7 @@ NAVBAR
     width: 2rem;
     height: 0.25rem;
     background: white;
+    transition: all ease 1s;
 }
 
 .nav__hamburger::after {
@@ -139,6 +141,22 @@ NAVBAR
     width: 2rem;
     height: 0.25rem;
     background: white;
+    transition: all ease 1s;
+}
+
+.open {
+    background: transparent;
+    transition: all ease 1s;
+}
+
+.open::before {
+    transform: rotate(45deg);
+    transition: all ease 1s;
+}
+
+.open::after {
+    transform: rotate(-45deg);
+    transition: all ease 1s;
 }
 
 .nav__links {
