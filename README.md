@@ -1,5 +1,7 @@
 # Peronal Portfolio
 
+[![wakatime](https://wakatime.com/badge/github/artsycoder533/portfolio.svg)](https://wakatime.com/badge/github/artsycoder533/portfolio)
+
 ## Table of contents
 
 - [Overview](#overview)
