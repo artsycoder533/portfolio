@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header class="header">
         <nav class="nav center">
             <div class="nav__header">
                 <h1 class="nav__brand">&lt;NJ&sol;&gt;</h1>
@@ -28,21 +28,25 @@
 
     <aside class="sidebar">
         <ul class="sidebar__links">
-            <li><a href="#" class="nav__link sidebar__link">Projects</a></li>
-            <li><a href="#" class="nav__link sidebar__link">About</a></li>
-            <li><a href="#" class="nav__link sidebar__link">Contact</a></li>
+            <li><a href="#" class="nav__link sidebar__link" data-id="projects">Projects</a></li>
+            <li><a href="#" class="nav__link sidebar__link" data-id="about">About</a></li>
+            <li><a href="#" class="nav__link sidebar__link" data-id="contact">Contact</a></li>
         </ul>
     </aside>
 
     <main>
-    <!-- hero section-->
-    <!-- <section class="hero page">
-        <article class="hero-text center">
-            <p class="name"><span>console.log</span>(<i class="fas fa-quote-left"></i>Hi, I'm Natasha Johnson.<i class="fas fa-quote-right"></i>);</p>
-            <h1 class="heading">Front End Developer.</h1>
-            <button class="btn">See My Work</button>
-        </article>
-    </section> -->
+        <!-- hero section-->
+        <section class="hero">
+            <article class="hero__container center">
+                <p class="hero__subheading">Hi, I'm Natasha Johnson</p>
+                <h1 class="hero__heading">Front End Developer</h1>
+                <div class="hero__buttons">
+                    <button class="btn hero__btn--primary">Projects</button>
+                    <button class="btn hero__btn--secondary">Contact</button>
+                </div>
+                
+            </article>
+        </section>
         
     </main>
     <footer>

@@ -9,7 +9,7 @@ VARIABLES
 :root {
 	--brand-font: "Rock Salt", cursive;
 	--main-font: "Lato", sans-serif;
-	--header-clr: #cdb16e;
+	--header-clr: rgb(205, 177, 110);
 }
 
 /*
@@ -28,14 +28,18 @@ html {
 /*
 GLOBAL STYLES
 */
+
 body {
 	font-family: var(--main-font);
-	background-color: lightgray;
+	background-color: rgb(27, 27, 27);
 	overflow: hidden;
+	color: white;
 }
 
 h1 {
-	font-family: var(--brand-font);
+	/* font-family: var(--brand-font); */
+	padding-top: 0;
+	margin-top: 0;
 }
 
 h2 {
@@ -88,16 +92,18 @@ a:visited {
 .btn {
 	text-transform: uppercase;
 	font-family: var(--main-font);
-	border-radius: 0.4rem;
+	border-radius: 20px;
 	background: transparent;
-	border: 1px solid black;
+	border: 1px solid white;
+	color: white;
 	width: 8rem;
 	height: 2.5rem;
 	cursor: pointer;
+	font-size: 1rem;
 }
 
 .btn:hover {
-	background: tan;
+	/* background: transparent; */
 }
 
 hr {
@@ -107,14 +113,21 @@ hr {
 /*
 NAVBAR
 */
+.header {
+	background:rgb(5, 5, 5);
+}
+
 .nav__header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	max-width: 1400px;
+	height: 75px;
+
 }
 
 .nav__brand {
-	color: white;
+	color: rgb(41, 208, 238);
 }
 
 .nav__hamburger {
@@ -122,6 +135,7 @@ NAVBAR
 	height: 0.25rem;
 	cursor: pointer;
 	background: transparent;
+	background: rgb(41, 208, 238);
 }
 
 .nav__hamburger:hover {
@@ -134,7 +148,7 @@ NAVBAR
 	transform: translateY(8px);
 	width: 2rem;
 	height: 0.25rem;
-	background: white;
+	background: rgb(41, 208, 238);
 	transition: all ease 0.5s;
 }
 
@@ -144,7 +158,7 @@ NAVBAR
 	transform: translateY(-8px);
 	width: 2rem;
 	height: 0.25rem;
-	background: white;
+	background: rgb(41, 208, 238);
 	transition: all ease 0.5s;
 }
 
@@ -195,10 +209,6 @@ media queries tablet
 		margin: auto;
 	}
 
-	.nav__brand {
-		color: white;
-	}
-
 	.nav__links {
 		height: 100%;
 		display: flex;
@@ -220,19 +230,30 @@ media queries tablet
 SIDEBAR
 */
 .sidebar {
-	height: 100vh;
+	position: fixed;
+	height: calc(100vh - 75px);
 	width: 100vw;
 	transform: translateX(-100%);
 	transition: all ease-in-out 0.5s;
-	background: rgba(0, 0, 0, 0.9);
+	background: rgb(27, 27, 27);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .sidebar__links {
+	width: 100%;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	/* border: 2px solid yellow; */
+}
+
+.sidebar__links li {
+	position: relative;
+	overflow: hidden;
 }
 
 .sidebar__link {
@@ -241,7 +262,19 @@ SIDEBAR
 	color: white;
 	letter-spacing: 0.2rem;
 	text-transform: uppercase;
+	position: relative;
+	display: block;
+	text-align: center;
+	margin: 0;
 	/* transition: all ease-in-out 1s; */
+}
+
+.sidebar__link::before {
+	content: attr(data-id);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
 .sidebar__link:hover {
@@ -254,31 +287,6 @@ SIDEBAR
 	transition: all ease 0.5s;
 }
 
-/* .hamburger {
-    display: inline-block;
-    width: 1.6rem;
-    height: 0.13rem;
-    background: red;
-    cursor:pointer;
-    display: none;
-}
-
-.hamburger::before, .hamburger::after {
-    content: "";
-    position: absolute;
-    width: 1.6rem;
-    height: 0.13rem;
-    background: red;
-}
-
-.hamburger::before {
-    transform: translateY(-0.5rem);
-}
-
-.hamburger::after {
-    transform: translateY(0.5rem);
-}
-
 /*
 hero section
 */
@@ -287,36 +295,50 @@ hero section
 	height: calc(100vh - 75px);
 	display: grid;
 	place-items: center;
-	mix-blend-mode: multiply;
+	background: rgb(5, 5, 5);
+	/* background-image: url(./hero.jpg) no-repeat; */
+	/* background-color: var(--header-clr); */
+	/* background-blend-mode: multiply; */
 }
 
-.hero-text {
+.hero__container {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.hero__btn--secondary{
+	margin-left: 2rem;
+}
+
+.hero__btn--primary {
+	background: white;
+	color: black;
+	font-weight: bold;
+	margin-left: 0.35rem;
+}
+
+.hero__subheading{
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.hero__heading {
+	display: block;
 	text-align: left;
-	padding: 1rem;
-}
-
-.name {
-	font-family: var(--main-font);
-	font-size: 1.5rem;
-	text-transform: uppercase;
-}
-
-.name span {
-	text-transform: lowercase;
-}
-
-.name i {
-	font-size: 0.6rem;
-	transform: translateY(-0.7rem);
-	padding: 0 0.4rem;
-}
-
-.heading {
-	font-family: var(--main-font);
 	font-size: 6rem;
-	padding: 1rem 0rem 1.5rem 0rem;
-	text-transform: uppercase;
+	margin-bottom: rem;
+	color: rgb(41, 208, 238);
+	
+	margin: 0;
 }
+
+.hero__buttons {
+	margin-top: 1rem;
+}
+
 
 /*
 projects section
