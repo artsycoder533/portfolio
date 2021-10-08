@@ -116,7 +116,23 @@ hr {
 NAVBAR
 */
 .header {
+	position: fixed;
+	height: 75px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.5s;
+}
+
+header.sticky {
+	/* background-color: rgb(27, 27, 27); */
+	height: 50px;
+}
+
+.nav {
+	height: 100%;
 }
 
 .nav__header {
@@ -124,7 +140,7 @@ NAVBAR
 	justify-content: space-between;
 	align-items: center;
 	max-width: 1400px;
-	height: 75px;
+	height: 100%;
 
 }
 
@@ -141,7 +157,7 @@ NAVBAR
 }
 
 .nav__hamburger:hover {
-	color: rgb(226, 195, 122);
+	/* color: rgb(226, 195, 122); */
 }
 
 .nav__hamburger::before {

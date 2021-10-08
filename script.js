@@ -5,3 +5,9 @@ hamburgerBtn.addEventListener("click", () => {
     sidebar.classList.toggle("show");
     hamburgerBtn.classList.toggle("open");
 });
+
+//sticky header
+window.addEventListener("scroll", () => {
+    const header = document.querySelector(".header");
+    header.classList.toggle("sticky", window.scrollY > 0);
+});
