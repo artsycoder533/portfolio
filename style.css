@@ -79,17 +79,17 @@ a:visited {
 .section-title {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 3rem;
 	letter-spacing: 0.05rem;
 	padding: 3rem;
-	border: 2px solid red;
+	color: rgb(41, 208, 238);
 }
-.underline {
+/* .underline {
 	width: 100px;
 	height: 0.3rem;
 	background: red;
 	margin: auto;
-}
+} */
 
 .btn {
 	text-transform: uppercase;
@@ -116,7 +116,7 @@ hr {
 NAVBAR
 */
 .header {
-	background:rgb(5, 5, 5);
+	background-color: rgb(27, 27, 27);
 }
 
 .nav__header {
@@ -297,10 +297,12 @@ hero section
 	height: calc(100vh - 75px);
 	display: grid;
 	place-items: center;
-	background: rgb(5, 5, 5);
-	/* background-image: url(./hero.jpg) no-repeat; */
+	/* background: rgba(0, 0, 0, 0.2);  */
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./hero.jpg") center / cover no-repeat;
+	/* background: center / contain no-repeat url("../../media/examples/firefox-logo.svg"), */
+            /* #eee 35% url("../../media/examples/lizard.png"); */
 	/* background-color: var(--header-clr); */
-	/* background-blend-mode: multiply; */
+	background-blend-mode: multiply;
 }
 
 .hero__container {
@@ -348,7 +350,7 @@ projects section
 .projects {
 	min-height: 100vh;
 	width: 100%;
-	border: 2px solid blue;
+	
 	display: grid;
 	place-items: center;
 }
@@ -357,13 +359,16 @@ projects section
 	/* height: 100%;
 	width: 100%; */
 	display: flex;
-	align-items: center;
+	flex-direction: column;
 	gap: 3rem;
-	border: 2px solid orange;
+	
 }
 
 .projects__card{
-	border: 2px solid white;
+	
+	display: flex;
+	flex-direction: row;
+	
 }
 
 .projects__image {
@@ -378,7 +383,11 @@ projects section
 	object-fit: cover;
 }
 
+.project__text {
+	padding: 1rem;
+	
+}
 .footer {
-	border: 1px solid yellow;
+	
 	height: 100%;
 }
