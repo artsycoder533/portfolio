@@ -526,6 +526,32 @@ projects section
 	}
 }
 
+
+.about {
+	min-height: 100vh;
+}
+
+.about__container {
+	height: 100%;
+	/* display: flex; */
+	/* flex-direction: column; */
+}
+
+.about__bio {
+	height: 100%;
+	border: 2px solid blue;
+}
+
+.about__skilllist {
+	border: 2px solid red;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.about__skills i {
+	font-size: 4rem;
+}
+
 .footer {
 	text-align: center;
 	padding: 0.5rem;
