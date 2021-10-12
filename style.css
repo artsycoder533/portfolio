@@ -398,6 +398,7 @@ hero section
 	margin-left: 2rem;
 	cursor: pointer;
 	text-align: center;
+	color: white;
 }
 
 .hero__btn--secondary:visited {
@@ -541,11 +542,19 @@ projects section
 	/* cursor: pointer; */
 }
 
+.project__btn--primary:visited {
+	color: black;
+}
+
 .project__btn--primary:hover {
 	border: 2px solid white;
 }
 
 .project__btn--secondary {
+	color: white;
+}
+
+.project__btn--secondary:visited {
 	color: white;
 }
 
@@ -671,6 +680,10 @@ textarea {
 
 .contact__link {
 	font-size: 3rem;
+}
+
+.contact__link:visited {
+	color: white;
 }
 
 .contact__link:hover {
