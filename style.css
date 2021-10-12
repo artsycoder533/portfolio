@@ -159,9 +159,6 @@ header.sticky {
 	background: rgb(41, 208, 238);
 }
 
-.nav__hamburger:hover {
-	/* color: rgb(226, 195, 122); */
-}
 
 .nav__hamburger::before {
 	content: "";
@@ -581,6 +578,7 @@ projects section
 		display: flex;
 		flex-direction: row;
 		border-bottom: none;
+		gap: 2rem;
 	}
 
 	.project__buttons {
@@ -653,6 +651,7 @@ projects section
 	flex-direction: column;
 	width: 90vw;
 	max-width: 500px;
+	z-index: 1;
 }
 
 label {
@@ -669,6 +668,7 @@ input {
 textarea {
 	background: rgb(41, 208, 238);
 	font-size: 1rem;
+	padding: 0.5rem;
 }
 
 .contact__links {
