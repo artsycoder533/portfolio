@@ -15,11 +15,11 @@
     <header class="header">
         <nav class="nav center">
             <div class="nav__header">
-                <h1 class="nav__brand">&lt;NJ&sol;&gt;</h1>
+                <h1 class="nav__brand"><a href="#home">&lt;NJ&sol;&gt;</a></h1>
                 <ul class="nav__links">
                     <li><a href="#projects" class="nav__link">Projects</a></li>
-                    <li><a href="#" class="nav__link">About</a></li>
-                    <li><a href="#" class="nav__link">Contact</a></li>
+                    <li><a href="#about" class="nav__link">About</a></li>
+                    <li><a href="#contact" class="nav__link">Contact</a></li>
                 </ul>
                 <span class="nav__hamburger" id="hamburger"></span>
             </div>
@@ -28,15 +28,15 @@
 
     <aside class="sidebar">
         <ul class="sidebar__links">
-            <li><a href="#" class="sidebar__link" data-id="projects">Projects</a></li>
-            <li><a href="#" class="sidebar__link" data-id="about">About</a></li>
-            <li><a href="#" class="sidebar__link" data-id="contact">Contact</a></li>
+            <li><a href="#projects" class="sidebar__link" data-id="projects">Projects</a></li>
+            <li><a href="#about" class="sidebar__link" data-id="about">About</a></li>
+            <li><a href="#contact" class="sidebar__link" data-id="contact">Contact</a></li>
         </ul>
     </aside>
 
     <main>
         <!-- hero section-->
-        <section class="hero">
+        <section class="hero" id="home">
             <article class="hero__container center">
                 <p class="hero__subheading">Natasha Johnson</p>
                 <h1 class="hero__heading">Front End Developer</h1>
@@ -109,7 +109,7 @@
         </section>
         
         <!-- about section -->
-        <section class="about center">
+        <section class="about center" id="about">
             <h2 class="section__title">About Me</h2>
             <article class="about__container">
                 <div class="about__bio">
@@ -134,7 +134,7 @@
         </section>
 
         <!-- contact section -->
-        <section class="contact section">
+        <section class="contact section" id="contact">
             <h2 class="section__title">Contact Me</h2>
             <article class="contact__container">
                 <form action="" class="contact__form">
