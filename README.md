@@ -19,8 +19,8 @@ I am a Front End Developer currently skilled in HTML 5, CSS 3, Sass, Javascript,
 
 ### Screenshot
 
-![Mobile Screenshot](mobile_screenshot.png)
-![Desktop Screenshot](desktop_screenshot.png)
+![Mobile Screenshot](vohps_mobile.png)
+![Desktop Screenshot](vohps.png)
 
 ### Links
 
