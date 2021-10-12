@@ -15,7 +15,7 @@
 
 ## Overview
 
-I am a Front End Developer currently skilled in HTML5, CSS3, SASS, Javascript, Git, and Markdown.
+I am a Front End Developer currently skilled in HTML 5, CSS 3, Sass, Javascript, Git, Github, Webpack 5 and Markdown and Basic C.  I enjoy solving problems via responsive and interactive web experiences.
 
 ### Screenshot
 
@@ -26,29 +26,22 @@ I am a Front End Developer currently skilled in HTML5, CSS3, SASS, Javascript, G
 
 Below are links to my featured projects:
 
-- Solution URL: []()
+- Repository URL: []()
 - Live Site URL: []()
-
-## My process
 
 ### Built with
 
 - Semantic HTML5 markup
-- SASS
+- CSS
 - Javascript
 - Mobile-first workflow
 
-### What I learned
-
 ### Continued development
 
-My end goal is to become a Full Stack Developer. I am currently following The Odin Project's Full Stack Javascript curriculum. I am comfortable with front end tools such as HTML5, CSS3, SASS, and Javascript, but I am looking forward to learning more about the back end and how everything works together to create full stack applications.
+I am currently enrolled in CS50x: Introduction to Computer Science sponsored by Harvard University through EdX.  In this course I have been learning C.  Other languages we will cover are Python and Flask.  I am also following The Full Stack Javascript Path through the Odin Project, where I am learning the MERN Stack.
 
-### Useful Resources
-
-I found the following websites to be helpful in providing further understanding on topics I was not familiar with.
 
 ## Author
 
-- Personal Portfolio - []()
--
+- Personal Portfolio - [https://artsycoder533.github.io/portfolio/](https://artsycoder533.github.io/portfolio/)
+
