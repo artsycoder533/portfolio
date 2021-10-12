@@ -62,7 +62,7 @@ a {
 }
 
 a:visited {
-	color: white;
+	/* color: white; */
 }
 
 .page {
@@ -97,11 +97,13 @@ a:visited {
 	border-radius: 20px;
 	background: transparent;
 	border: 2px solid white;
-	color: white;
 	width: 8rem;
 	height: 2.5rem;
 	font-size: 1rem;
 	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .btn:hover {
@@ -146,6 +148,7 @@ header.sticky {
 .nav__brand {
 	color: rgb(41, 208, 238);
 }
+
 
 .nav__hamburger {
 	width: 2rem;
@@ -192,6 +195,14 @@ header.sticky {
 .open::after {
 	transform: rotate(-45deg);
 	transition: all ease 0.5s;
+}
+
+.nav__link {
+	color: white;
+}
+
+.nav__link:visited{
+	color: white;
 }
 
 .nav__link:hover {
@@ -385,17 +396,30 @@ hero section
 .hero__btn--secondary {
 	margin-left: 2rem;
 	cursor: pointer;
+	text-align: center;
 }
 
+.hero__btn--secondary:visited {
+	color: white;
+}
 .hero__btn--primary {
-	background: white;
+	background: rgb(41, 208, 238); 
 	color: black;
 	font-weight: bold;
 	margin-left: 0.35rem;
 	/* position: relative; */
 	cursor: pointer;
+	text-align: center;
+	border: none;
 }
 
+.hero__btn--primary:hover {
+	border: 2px solid white;
+}
+
+.hero__btn--primary:visited {
+	color: black;
+}
 /* .hero__btn--primary::before {
 	content: "";
 	position: absolute;
@@ -430,6 +454,7 @@ hero section
 
 .hero__buttons {
 	margin-top: 1rem;
+	display: flex;
 }
 
 @media screen and (min-width: 992px){
@@ -508,10 +533,19 @@ projects section
 }
 
 .project__btn--primary {
-	background: white;
+	background: rgb(41, 208, 238);
 	color: black;
 	font-weight: bold;
+	border: none;
 	/* cursor: pointer; */
+}
+
+.project__btn--primary:hover {
+	border: 2px solid white;
+}
+
+.project__btn--secondary {
+	color: white;
 }
 
 .projects__image {
