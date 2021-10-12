@@ -682,6 +682,10 @@ textarea {
 	font-size: 3rem;
 }
 
+.contact__link:link {
+	color: white;
+}
+
 .contact__link:visited {
 	color: white;
 }
