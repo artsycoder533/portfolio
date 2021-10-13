@@ -541,7 +541,7 @@ li:nth-child(19){
 .hero__heading {
 	display: block;
 	/* text-align: left; */
-	font-size: 3rem;
+	font-size: 2rem;
 	margin-bottom: rem;
 	color: rgb(41, 208, 238);
 	margin: 0;
