@@ -701,6 +701,15 @@ textarea {
 	font-weight: bold;
 }
 
+.contact__success {
+	padding: 1rem 0;
+	visibility: hidden;
+}
+
+.visible {
+	visibility: visible;
+}
+
 .contact__button--primary:hover, 
 .project__btn--primary:hover, 
 .hero__btn--primary:hover {

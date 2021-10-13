@@ -21,8 +21,28 @@ sidebarLinks.forEach(link => {
     });
 });
 
-sendBtn.addEventListener("click", () => {
-    const form = document.querySelector(".contact__form");
-    
 
-});
+const form = document.getElementById("form");
+
+async function handleSubmit(e) {
+    e.preventDefault();
+    const status = document.querySelector(".contact__success");
+    const data = new FormData(e.target);
+    fetch(e.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            Accept: "application/json",
+        },
+    })
+        .then((response) => {
+            status.classList.add("visible");
+            status.textContent = "Form Sent Successfully!";
+            form.reset();
+        })
+        .catch((error) => {
+            status.classList.add("visible");
+            status.textContent = "Oops! There was a problem submitting your form";
+        });
+}
+form.addEventListener("submit", handleSubmit);
