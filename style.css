@@ -747,7 +747,6 @@ projects section
 	flex-direction: column;
 	width: 90vw;
 	max-width: 500px;
-	z-index: 1;
 }
 
 label {
