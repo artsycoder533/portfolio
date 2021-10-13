@@ -1,7 +1,7 @@
 const hamburgerBtn = document.querySelector(".nav__hamburger");
 const sidebar = document.querySelector(".sidebar");
 const sidebarLinks = document.querySelectorAll(".sidebar__link");
-console.log(sidebarLinks);
+const sendBtn = document.getElementById("send");
 
 hamburgerBtn.addEventListener("click", () => {
     sidebar.classList.toggle("show");
@@ -19,4 +19,10 @@ sidebarLinks.forEach(link => {
         sidebar.classList.toggle("show");
         hamburgerBtn.classList.toggle("open");
     });
+});
+
+sendBtn.addEventListener("click", () => {
+    const form = document.querySelector(".contact__form");
+    
+
 });

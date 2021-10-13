@@ -144,12 +144,12 @@
             <sectiom class="contact__container">
                 <form action="https://formspree.io/f/moqybgqo" method="POST" class="contact__form">
                     <label for="name">Name:</label>
-                    <input type="text" name="name" id="name">
+                    <input type="text" name="name" id="name" required>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" id="email">
+                    <input type="email" name="email" id="email" required>
                     <label for="message">Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    <button class="btn contact__button--primary">Send </button>
+                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+                    <button class="btn contact__button--primary" id="send" type="submit">Send </button>
                 </form>
                 <ul class="contact__links">
                     <li><a href="https://www.linkedin.com/in/natasha--johnson/" target="_blank" class="contact__link"><i class="fab fa-linkedin-in"></i></a></li>
