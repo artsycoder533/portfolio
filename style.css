@@ -720,12 +720,16 @@ input {
 	padding: 0.5rem;
 	background: rgb(240, 240, 240);
 	font-size: 1rem;
+	border-radius: 20px;
+	border: none;
 }
 
 textarea {
 	background: rgb(240, 240, 240);
 	font-size: 1rem;
 	padding: 0.5rem;
+	border-radius: 20px;
+	border: none;
 }
 
 .contact__links {
