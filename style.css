@@ -508,17 +508,20 @@ li:nth-child(19){
 }
 
 @media screen and (min-width: 992px){
-	.hero {
-		grid-template-columns: auto auto;
-		max-width: 1400px;
-		margin: auto;
-	}
+	
 
 	.hero__heading {
 		font-size: 6rem;
 	}
 }
 
+@media screen and (min-width: 1100px){
+	.hero {
+			grid-template-columns: auto auto;
+			max-width: 1400px;
+			margin: auto;
+	}
+}
 /*
 projects section
 */
@@ -747,7 +750,7 @@ textarea {
 	visibility: hidden;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1100px) {
 	.contact__links {
 		flex-direction: column;
 		height: 25%;
