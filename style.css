@@ -126,14 +126,12 @@ NAVBAR
 	z-index: 3;
 	background-color: rgb(15, 15, 15);
 	transition: all 0.5s;
+	display: grid;
+	place-items: center;
 }
 
 header.sticky {
 	height: 50px;
-}
-
-.nav {
-	/* height: 100%; */
 }
 
 .nav__header {
@@ -714,17 +712,18 @@ projects section
 
 label {
 	padding-bottom: 0.5rem;
+	color:rgb(41, 208, 238);
 }
 
 input {
 	margin-bottom: 1rem;
 	padding: 0.5rem;
-	background: rgb(41, 208, 238);
+	background: rgb(240, 240, 240);
 	font-size: 1rem;
 }
 
 textarea {
-	background: rgb(41, 208, 238);
+	background: rgb(240, 240, 240);
 	font-size: 1rem;
 	padding: 0.5rem;
 }
@@ -755,9 +754,10 @@ textarea {
 
 .contact__button--primary {
 	margin-top: 1rem;
-	background: white;
+	background: rgb(41, 208, 238);
 	color: black;
 	font-weight: bold;
+	border: none;
 }
 
 .contact__success {
