@@ -26,8 +26,15 @@ I am a Front End Developer currently skilled in HTML 5, CSS 3, Sass, Javascript,
 
 Below are links to my featured projects:
 
-- Repository URL: []()
-- Live Site URL: []()
+Talk2Do:
+
+- Repository URL: [https://github.com/artsycoder533/talk2do.git](https://github.com/artsycoder533/talk2do.git)
+- Live Site URL: [https://artsycoder533.github.io/talk2do/](https://artsycoder533.github.io/talk2do/)
+
+Visions of Hope Psychological Services, LLC:
+
+- Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
+- Live Site URL: [https://artsycoder533.github.io/VOHPS-LLC/](https://artsycoder533.github.io/VOHPS-LLC/)
 
 ### Built with
 
