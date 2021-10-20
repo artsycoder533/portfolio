@@ -563,10 +563,12 @@ projects section
 }
 
 .project__buttons {
-	display: flex;
+	/* display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center; 
+	justify-content: center;  */
+	display: grid;
+
 	height: 100%;
 	gap: 1rem;
 }
@@ -623,8 +625,7 @@ projects section
 	}
 
 	.project__buttons {
-		display: flex;
-		flex-direction: row;
+		grid-template-columns: 1fr 1fr;
 	}
 }
 
@@ -765,4 +766,9 @@ textarea {
 	text-align: center;
 	padding: 0.5rem;
 	height: 1rem;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+	width: 
 }
