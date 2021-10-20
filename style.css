@@ -770,5 +770,16 @@ textarea {
 
 /* scrollbar */
 ::-webkit-scrollbar {
-	width: 
+	width: 1.5em;
+}
+
+::-webkit-scrollbar-track {
+	background: black;
+	border-radius: 10px;
+	border: 1px solid white;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(41, 208, 238);
+	border-radius: 10px;
 }
