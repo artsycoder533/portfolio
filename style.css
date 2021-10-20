@@ -99,7 +99,8 @@ a {
 }
 
 .btn:hover {
-	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	        filter: blur(1px);
 }
 
 hr {
@@ -315,7 +316,8 @@ SIDEBAR
 	box-sizing: border-box;
 	transition: 0.5s;
 	transition-delay: 0.25s;
-	clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+	        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 }
 
 .sidebar__link::after {
@@ -329,7 +331,8 @@ SIDEBAR
 	box-sizing: border-box;
 	transition: 0.5s;
 	transition-delay: 0.25s;
-	clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+	-webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
+	        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
 }
 
 .sidebar__link:hover {
@@ -383,7 +386,8 @@ hero section
 .hero__list:hover li {
 	transform: rotate(45deg) translateY(-50px);
 	opacity: 0;
-	filter: blur(5px);
+	-webkit-filter: blur(5px);
+	        filter: blur(5px);
 	color: white;
 }
 
@@ -606,7 +610,8 @@ projects section
 	width: 100%;
 	height: 100%;
 	display: block;
-	object-fit: cover;
+	-o-object-fit: cover;
+	   object-fit: cover;
 	border-radius: 10px;
 }
 
@@ -675,7 +680,8 @@ projects section
 	.about__container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		column-gap: 4rem;
+		-moz-column-gap: 4rem;
+		     column-gap: 4rem;
 	}
 }
 
@@ -736,7 +742,8 @@ textarea {
 
 .contact__link:hover {
 	color: rgb(41, 208, 238);
-	filter: blur(1px);
+	-webkit-filter: blur(1px);
+	        filter: blur(1px);
 }
 
 .contact__button--primary {
@@ -761,7 +768,7 @@ textarea {
 .visible {
 	visibility: visible;
 }
-
+ 
 .footer {
 	text-align: center;
 	padding: 0.5rem;
