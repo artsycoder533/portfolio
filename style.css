@@ -80,9 +80,6 @@ a {
 	padding: 4rem;
 	color: rgb(41, 208, 238);
 	letter-spacing: 0.25rem;
-	text-decoration: underline;
-	text-decoration-style: wavy;
-	
 }
 
 .btn {
@@ -753,7 +750,7 @@ textarea {
 @media screen and (min-width: 992px) {
 	.contact__links {
 		flex-direction: column;
-		height: 25%
+		height: 25%;
 	}
 }
 
