@@ -83,7 +83,10 @@ a:visited {
 	letter-spacing: 0.05rem;
 	padding: 4rem;
 	color: rgb(41, 208, 238);
-	letter-spacing: 00.25rem;
+	letter-spacing: 0.25rem;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	
 }
 /* .underline {
 	width: 100px;
@@ -774,7 +777,6 @@ textarea {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	/* padding: 6rem; */
 }
 
 .contact__link {
