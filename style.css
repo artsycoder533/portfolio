@@ -572,8 +572,8 @@ projects section
 	align-items: center;
 	justify-content: center;  */
 	display: grid;
-
-	height: 100%;
+	grid-template-columns: 1fr;
+	/* height: 100%; */
 	gap: 1rem;
 }
 
