@@ -15,7 +15,7 @@
 
 ## Overview
 
-I am a Front End Developer currently skilled in HTML 5, CSS 3, Sass, Javascript, Git, Github, Webpack 5 and Markdown and Basic C.  I enjoy solving problems via responsive and interactive web experiences.
+I am a Frontend Developer who enjoys solving problems via responsive and interactive web experiences using Html5, Css3, Sass, and JavaScript.  I am enrolled in CS50x: Introduction to Computer Science sponsored by Harvard University through EdX as well as following The Odin Projects Full Stack Javascript Path curriculum where I will be learning the MERN stack.
 
 ### Screenshot
 
