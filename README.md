@@ -20,7 +20,7 @@ I am a Frontend Developer who enjoys solving problems via responsive and interac
 ### Screenshot
 
 ![Mobile Screenshot](vohps_mobile.png)
-![Desktop Screenshot](vohps.png)
+![Desktop Screenshot](vohps_desktop.png)
 
 ### Links
 
