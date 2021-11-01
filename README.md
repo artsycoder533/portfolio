@@ -15,7 +15,9 @@
 
 ## Overview
 
-I am a Frontend Developer who enjoys solving problems via responsive and interactive web experiences using Html5, Css3, Sass, and JavaScript.  I am enrolled in CS50x: Introduction to Computer Science sponsored by Harvard University through EdX as well as following The Odin Projects Full Stack Javascript Path curriculum where I will be learning the MERN stack.
+I am a Self-Taught Front End Developer who enjoys creating responsive and interactive websites and applications. I am skilled in HTML5, CSS3, Sass and Javascript, but I am always seeking to increase my knowledge base.
+                    
+I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in the Social Sciences field.  I have a passion for helping others by using technology to create a solution to their problems.
 
 ### Screenshot
 
