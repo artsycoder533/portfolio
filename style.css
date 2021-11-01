@@ -385,7 +385,7 @@ hero section
 
 .hero__list li {
 	letter-spacing: 2px;
-	transition: 1s;
+	transition: 0.5s;
 }
 
 .hero__list:hover li {
