@@ -647,7 +647,9 @@ projects section
 
 /* about section */
 .about {
-	width: 80%;
+	width: 70%;
+	margin-bottom: 4rem;
+	/* min-height: 100vh; */
 }
 
 .about__container {
@@ -663,12 +665,15 @@ projects section
 }
 
 .about__bio {
-	max-width: 400px;
+	/* max-width: 400px; */
 }
 
 .skills__title, .skills_bio{
 	color:rgb(41, 208, 238);
 	padding: 1rem 0;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5rem;
 }
 
 .about__skills{
@@ -678,13 +683,28 @@ projects section
 .about__skilllist {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: auto auto auto;
+	gap: 2rem;
+}
+
+.about__skilllist div {
+	width: 100%;
+	height: 100%;
+	display: grid;
+	justify-content: center;
+	align-items: center;
 	
+	/* border: 1px solid orange; */
+}
+.about__skilllist div p {
+	color: white;
+	text-align: center;
 }
 
 .about__skills i {
 	font-size: 4rem;
-	height: 100%;
-	margin-bottom: 4rem;
+	/* height: 100%; */
+	/* margin-bottom: 4rem; */
 }
 
 @media screen and (min-width: 992px) {
@@ -696,8 +716,11 @@ projects section
 	}
 }
 
+/* contact section */
 .contact {
-	height: calc(100vh - 1rem - 75px);
+	min-height: calc(100vh - 50px - 75px);
+	display: grid;
+	place-items: center;
 }
 
 .contact__container {
@@ -788,7 +811,7 @@ textarea {
 .footer {
 	text-align: center;
 	padding: 0.5rem;
-	height: 1rem;
+	height: 50px;
 }
 
 /* scrollbar */
