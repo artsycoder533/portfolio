@@ -622,6 +622,10 @@ projects section
 	padding: 1rem;
 }
 
+.projects__description {
+	line-height: 1.7;
+}
+
 @media screen and (min-width: 992px) {
 	.projects__card {
 		display: flex;
@@ -637,7 +641,7 @@ projects section
 	}
 }
 
-
+/* about section */
 .about {
 	width: 80%;
 }
@@ -651,7 +655,7 @@ projects section
 .about__bio {
 	height: 100%;
 	margin-bottom: 4rem;
-	line-height: 1.6;
+	line-height: 1.7;
 }
 
 .about__bio {
