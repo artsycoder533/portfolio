@@ -15,9 +15,9 @@
 
 ## Overview
 
-I am a Self-Taught Front End Developer who enjoys creating responsive and interactive websites and applications. I am skilled in HTML5, CSS3, Sass and Javascript.
+I am a Self-Taught Front-End Developer who enjoys creating responsive and interactive websites and applications. I am currently skilled in HTML5, CSS3, Sass and JavaScript.  
                     
-I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in the Social Sciences field.  I have a passion for helping others by using technology to create a solution to their problems.
+I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections.  I have always had a passion for helping others and now desire to use technology to provide solutions.
 
 ### Screenshot
 
@@ -49,7 +49,7 @@ Visions of Hope Psychological Services, LLC:
 
 ### Continued development
 
-I am interested in learning about Full Stack Web Development, so I have been following the Full Stack Javascript Path through The Odin Project to increase my knowledge base.  
+I am curious to learn more about Full Stack Web Development, so I have been following the Full Stack JavaScript Path through The Odin Project to increase my knowledge base.
 
 
 ## Author
