@@ -143,6 +143,8 @@ header.sticky {
 
 .nav__brand {
 	color: rgb(41, 208, 238);
+	font-size: 1.75rem;
+	font-weight: bold;
 }
 
 
@@ -186,12 +188,12 @@ header.sticky {
 
 .open::before {
 	transform: rotate(45deg);
-	transition: all ease 0.3s;
+	transition: all ease-in-out 0.3s;
 }
 
 .open::after {
 	transform: rotate(-45deg);
-	transition: all ease 0.3s;
+	transition: all ease-in-out 0.3s;
 }
 
 .nav__link {
