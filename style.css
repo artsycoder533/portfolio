@@ -709,7 +709,7 @@ label {
 
 input {
 	margin-bottom: 1rem;
-	padding: 0.5rem;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
 	background: rgb(240, 240, 240);
 	font-size: 1rem;
 	border-radius: 20px;
@@ -719,7 +719,7 @@ input {
 textarea {
 	background: rgb(240, 240, 240);
 	font-size: 1rem;
-	padding: 0.5rem;
+	padding: 0.5rem 0.5rem 0.5rem 1rem;
 	border-radius: 20px;
 	border: none;
 }
