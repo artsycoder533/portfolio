@@ -36,7 +36,6 @@ body {
 }
 
 h1 {
-	/* font-family: var(--brand-font); */
 	padding-top: 0;
 	margin-top: 0;
 }
@@ -148,11 +147,13 @@ header.sticky {
 
 
 .nav__hamburger {
+	display: block;
 	width: 2rem;
 	height: 0.25rem;
 	cursor: pointer;
 	background: transparent;
 	background: rgb(41, 208, 238);
+	transition: all ease 0.2s;
 }
 
 
@@ -163,7 +164,8 @@ header.sticky {
 	width: 2rem;
 	height: 0.25rem;
 	background: rgb(41, 208, 238);
-	transition: all ease 0.5s;
+	transition: all ease 0.3s;
+	cursor: pointer;
 }
 
 .nav__hamburger::after {
@@ -173,22 +175,23 @@ header.sticky {
 	width: 2rem;
 	height: 0.25rem;
 	background: rgb(41, 208, 238);
-	transition: all ease 0.5s;
+	transition: all ease 0.3s;
+	cursor: pointer;
 }
 
 .open {
 	background: transparent;
-	transition: all ease 0.5s;
+	transition: all ease 0.3s;
 }
 
 .open::before {
 	transform: rotate(45deg);
-	transition: all ease 0.5s;
+	transition: all ease 0.3s;
 }
 
 .open::after {
 	transform: rotate(-45deg);
-	transition: all ease 0.5s;
+	transition: all ease 0.3s;
 }
 
 .nav__link {
@@ -260,7 +263,7 @@ SIDEBAR
 	height: calc(100vh - 75px);
 	width: 100vw;
 	transform: translateX(-100%);
-	transition: 0.5s;
+	transition: 0.3s;
 	background: rgb(15, 15, 15);
 	display: flex;
 	justify-content: center;
@@ -288,7 +291,7 @@ SIDEBAR
 	height: 1px;
 	background: rgb(41, 208, 238);
 	left: -100%;
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 .sidebar__links li:hover::before {
@@ -306,7 +309,7 @@ SIDEBAR
 	display: block;
 	text-align: center;
 	margin: 0;
-	transition: 0.5s;
+	transition: 0.3s;
 	color: transparent;
 }
 
@@ -319,8 +322,8 @@ SIDEBAR
 	padding: 5px 0;
 	color: white;
 	box-sizing: border-box;
-	transition: 0.5s;
-	transition-delay: 0.25s;
+	transition: 0.3s;
+	transition-delay: 0.15s;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 	        clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 }
@@ -334,8 +337,8 @@ SIDEBAR
 	padding: 5px 0;
 	color: white;
 	box-sizing: border-box;
-	transition: 0.5s;
-	transition-delay: 0.25s;
+	transition: 0.3s;
+	transition-delay: 0.15s;
 	-webkit-clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
 	        clip-path: polygon(0 50%, 100% 50%, 100% 100%, 0% 100%);
 }
@@ -355,7 +358,7 @@ SIDEBAR
 
 .show {
 	transform: translateX(0);
-	transition: 0.5s;
+	transition: 0.3s;
 }
 
 /*
