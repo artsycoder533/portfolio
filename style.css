@@ -626,6 +626,10 @@ projects section
 	line-height: 1.7;
 }
 
+.projects__wakatime {
+	padding-top: 1rem;
+}
+
 @media screen and (min-width: 992px) {
 	.projects__card {
 		display: flex;
