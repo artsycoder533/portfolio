@@ -813,7 +813,7 @@ textarea {
 @media screen and (min-width: 1100px) {
 	.contact__links {
 		flex-direction: column;
-		height: 25%;
+		height: 35%;
 	}
 }
 
