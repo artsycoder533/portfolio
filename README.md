@@ -30,6 +30,12 @@ I have a Bachelor of Science Degree in Psychology from Old Dominion University a
 
 ### Screenshots
 
+![Mobile Screenshot](cvbuilder_mobile.png)
+![Desktop Screenshot](cvbuilder_desktop.png)
+
+![Mobile Screenshot](talk2do_mobile.png)
+![Desktop Screenshot](talk2do_desktop.png)
+
 ![Mobile Screenshot](vohps_mobile.png)
 ![Desktop Screenshot](vohps_desktop.png)
 
@@ -41,6 +47,7 @@ CV Builder:
 
 - Repository URL: [https://github.com/artsycoder533/CV-Builder.git](https://github.com/artsycoder533/CV-Builder.git)
 - Live Site URL: [https://artsycoder533.github.io/CV-Builder/](https://artsycoder533.github.io/CV-Builder/)
+- Video Demo on Youtube: [https://youtu.be/S-ACy0H7a8s](https://youtu.be/S-ACy0H7a8s)
 
 Talk2Do:
 
