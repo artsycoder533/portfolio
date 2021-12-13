@@ -53,11 +53,13 @@ Talk2Do:
 
 - Repository URL: [https://github.com/artsycoder533/talk2do.git](https://github.com/artsycoder533/talk2do.git)
 - Live Site URL: [https://artsycoder533.github.io/talk2do/](https://artsycoder533.github.io/talk2do/)
+- Video Demo on Youtube: [https://youtu.be/fNI9YAqRuxM](https://youtu.be/fNI9YAqRuxM)
 
 Visions of Hope Psychological Services, LLC:
 
 - Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
-- Live Site URL: [https://artsycoder533.github.io/VOHPS-LLC/](https://artsycoder533.github.io/VOHPS-LLC/)
+- Live Site URL: [https://visionsofhope-va.com/](https://visionsofhope-va.com/)
+- Video Demo on Youtube: []()
 
 ### Built with
 
