@@ -19,7 +19,7 @@ I am a Self-Taught Front-End Developer/Freelancer who enjoys creating responsive
 
 I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections. I have always had a passion for helping others and I now desire to use technology to provide solutions.
 
-### Screenshot
+### Screenshots
 
 ![Mobile Screenshot](vohps_mobile.png)
 ![Desktop Screenshot](vohps_desktop.png)
