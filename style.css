@@ -105,8 +105,7 @@ a {
 }
 
 .btn:hover {
-	-webkit-filter: blur(1px);
-	        filter: blur(1px);
+	opacity: 0.8;
 }
 
 hr {
@@ -484,6 +483,10 @@ li:nth-child(19){
 	color: white;
 }
 
+.hero__btn--secondary:hover {
+	background:rgb(41, 208, 238)
+}
+
 .hero__btn--secondary:visited {
 	color: white;
 }
@@ -497,6 +500,10 @@ li:nth-child(19){
 	cursor: pointer;
 	text-align: center;
 	border: none;
+}
+
+.hero__btn--primary:hover {
+	background: white;
 }
 
 .hero__btn--primary:visited {
@@ -600,12 +607,20 @@ projects section
 	border: none;
 }
 
+.project__btn--primary:hover {
+	background: white;
+}
+
 .project__btn--primary:visited {
 	color: black;
 }
 
 .project__btn--secondary {
 	color: white;
+}
+
+.project__btn--secondary:hover {
+	background:rgb(41, 208, 238);
 }
 
 .project__btn--secondary:visited {
@@ -807,6 +822,10 @@ textarea {
 	border: none;
 }
 
+.contact__button--primary:hover{
+	background: white;
+}
+
 .contact__success {
 	padding: 1rem 0;
 	visibility: hidden;
@@ -843,4 +862,5 @@ textarea {
 ::-webkit-scrollbar-thumb {
 	background: rgb(41, 208, 238);
 	border-radius: 10px;
+}
 }
