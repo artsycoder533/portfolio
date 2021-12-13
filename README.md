@@ -5,12 +5,11 @@ This is my personal portfolio website that showcases my featured projects, skill
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Skills](#skills)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
 - [Author](#author)
 
 ## Overview
@@ -18,6 +17,16 @@ This is my personal portfolio website that showcases my featured projects, skill
 I am a Self-Taught Front-End Developer/Freelancer who enjoys creating responsive and interactive websites and applications. I am always seeking to learn new skills and increase my knowlege base. Even though my famililarity is with the Front End I am open and interested in learning the back end as well.
 
 I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections. I have always had a passion for helping others and I now desire to use technology to provide solutions.
+
+### Skills
+
+- HTML5
+- CSS3
+- Sass
+- JavaScript
+- React
+- Styled Components
+
 
 ### Screenshots
 
@@ -49,7 +58,6 @@ Visions of Hope Psychological Services, LLC:
 - CSS
 - Javascript
 - Mobile-first workflow
-
 
 
 ## Author
