@@ -1,6 +1,6 @@
 # Peronal Portfolio
 
-[![wakatime](https://wakatime.com/badge/github/artsycoder533/portfolio.svg)](https://wakatime.com/badge/github/artsycoder533/portfolio)
+This is my personal portfolio website that showcases my featured projects, skills, and about me.
 
 ## Table of contents
 
@@ -15,9 +15,9 @@
 
 ## Overview
 
-I am a Self-Taught Front-End Developer who enjoys creating responsive and interactive websites and applications. I am currently skilled in HTML5, CSS3, Sass and JavaScript.  
-                    
-I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections.  I have always had a passion for helping others and now desire to use technology to provide solutions.
+I am a Self-Taught Front-End Developer/Freelancer who enjoys creating responsive and interactive websites and applications. I am always seeking to learn new skills and increase my knowlege base. Even though my famililarity is with the Front End I am open and interested in learning the back end as well.
+
+I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections. I have always had a passion for helping others and I now desire to use technology to provide solutions.
 
 ### Screenshot
 
@@ -28,14 +28,17 @@ I have a Bachelor of Science Degree in Psychology from Old Dominion University a
 
 Below are links to my featured projects:
 
+CV Builder: 
+
+- Repository URL: [https://github.com/artsycoder533/CV-Builder.git](https://github.com/artsycoder533/CV-Builder.git)
+- Live Site URL: [https://artsycoder533.github.io/CV-Builder/](https://artsycoder533.github.io/CV-Builder/)
+
 Talk2Do:
-[![wakatime](https://wakatime.com/badge/user/598efa70-6943-48ce-b688-7687c79f4c4d/project/735950eb-d0ea-48f5-b265-936778f79e3b.svg)](https://wakatime.com/badge/user/598efa70-6943-48ce-b688-7687c79f4c4d/project/735950eb-d0ea-48f5-b265-936778f79e3b)
 
 - Repository URL: [https://github.com/artsycoder533/talk2do.git](https://github.com/artsycoder533/talk2do.git)
 - Live Site URL: [https://artsycoder533.github.io/talk2do/](https://artsycoder533.github.io/talk2do/)
 
 Visions of Hope Psychological Services, LLC:
-[![wakatime](https://wakatime.com/badge/github/artsycoder533/VOHPS-LLC.svg)](https://wakatime.com/badge/github/artsycoder533/VOHPS-LLC)
 
 - Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
 - Live Site URL: [https://artsycoder533.github.io/VOHPS-LLC/](https://artsycoder533.github.io/VOHPS-LLC/)
@@ -47,12 +50,9 @@ Visions of Hope Psychological Services, LLC:
 - Javascript
 - Mobile-first workflow
 
-### Continued development
-
-I am curious to learn more about Full Stack Web Development, so I have been following the Full Stack JavaScript Path through The Odin Project to increase my knowledge base.
 
 
 ## Author
 
-- Personal Portfolio - [https://artsycoder533.github.io/portfolio/](https://artsycoder533.github.io/portfolio/)
+- Personal Portfolio - [https://natashajohnson.dev/](https://natashajohnson.dev/)
 
