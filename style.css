@@ -400,6 +400,8 @@ hero section
 	color:rgb(41, 208, 238);
 	mix-blend-mode: difference;
 	flex: 1;
+	position: relative;
+	top: 60px;
 }
 
 /* heading transition */
