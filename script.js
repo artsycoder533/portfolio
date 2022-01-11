@@ -2,6 +2,9 @@ const hamburgerBtn = document.querySelector(".nav__hamburger");
 const sidebar = document.querySelector(".sidebar");
 const sidebarLinks = document.querySelectorAll(".sidebar__link");
 const sendBtn = document.getElementById("send");
+const date = document.getElementById("date");
+
+date.textContent = new Date().getFullYear();
 
 hamburgerBtn.addEventListener("click", () => {
     sidebar.classList.toggle("show");
