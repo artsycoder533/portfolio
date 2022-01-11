@@ -378,7 +378,7 @@ hero section
 	flex-direction: column;
 	/* background: rgb(15, 15, 15); */
 	background: linear-gradient(
-		to right, 
+		to bottom right, 
 		rgb(41, 208, 238) 0%,
 		rgb(41, 208, 238) 30%,
 		rgb(15, 15, 15)30%,
@@ -497,13 +497,23 @@ li:nth-child(19){
 	transition-delay: 0.9s;
 }
 
+.hero__btn--secondary, 
+.hero__btn--primary {
+	font-weight: bold;
+	padding: 1.2rem 4rem;
+	font-size: 1.1rem;
+}
+
 .hero__btn--secondary {
 	margin-left: 2rem;
 	cursor: pointer;
 	text-align: center;
-	color: black;
+	background: transparent;
+	/* color: black; */
 	/* color: rgb(15, 15, 15); */;
-	border: 2px solid rgb(41, 208, 238)
+	color:white;
+	border: 2px solid border
+	
 }
 
 .hero__btn--secondary:hover {
@@ -512,6 +522,7 @@ li:nth-child(19){
 
 .hero__btn--secondary:visited {
 	color: rgb(15, 15, 15);
+	color: white;
 }
 
 
@@ -530,7 +541,7 @@ li:nth-child(19){
 }
 
 .hero__btn--primary:visited {
-	color: black;
+	/* color: black; */
 }
 
 .hero__subheading {
@@ -550,6 +561,7 @@ li:nth-child(19){
 .hero__buttons {
 	margin-top: 1rem;
 	display: flex;
+	mix-blend-mode: unset;
 }
 
 .contact__links {
