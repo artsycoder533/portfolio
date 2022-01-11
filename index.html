@@ -1,223 +1,429 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Natasha Johnson">
-    <meta name="description" content="Front End Developer Personal Portfolio website for Natasha Johnson">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Natasha Johnson" />
+    <meta
+      name="description"
+      content="Front End Developer Personal Portfolio website for Natasha Johnson"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>&lt;NJ&sol;&gt; Natasha Johnson | Portfolio</title>
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header -->
     <header class="header">
-        <nav class="nav center">
-            <div class="nav__header">
-                <a href="#home" class="nav__brand">&lt;NJ&sol;&gt;</a>
-                <ul class="nav__links">
-                    <li><a href="#home" class="nav__link">Home</a></li>
-                    <li><a href="#projects" class="nav__link">Projects</a></li>
-                    <li><a href="#about" class="nav__link">About</a></li>
-                    <li><a href="#contact" class="nav__link">Contact</a></li>
-                </ul>
-                <span class="nav__hamburger" id="hamburger"></span>
-            </div>
-        </nav>
+      <nav class="nav center">
+        <div class="nav__header">
+          <a href="#home" class="nav__brand">&lt;NJ&sol;&gt;</a>
+          <ul class="nav__links">
+            <li><a href="#home" class="nav__link">Home</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+          <span class="nav__hamburger" id="hamburger"></span>
+        </div>
+      </nav>
     </header>
 
     <aside class="sidebar">
-        <ul class="sidebar__links">
-            <li><a href="#home" class="sidebar__link" data-id="home">Home</a></li>
-            <li><a href="#projects" class="sidebar__link" data-id="projects">Projects</a></li>
-            <li><a href="#about" class="sidebar__link" data-id="about">About</a></li>
-            <li><a href="#contact" class="sidebar__link" data-id="contact">Contact</a></li>
-        </ul>
+      <ul class="sidebar__links">
+        <li><a href="#home" class="sidebar__link" data-id="home">Home</a></li>
+        <li>
+          <a href="#projects" class="sidebar__link" data-id="projects"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a href="#about" class="sidebar__link" data-id="about">About</a>
+        </li>
+        <li>
+          <a href="#contact" class="sidebar__link" data-id="contact">Contact</a>
+        </li>
+      </ul>
     </aside>
 
     <main>
-        <!-- hero section-->
-        <section class="hero" id="home">
-            <article class="hero__container center">
-                <p class="hero__subheading">Natasha Johnson</p>
-                <h1 class="hero__heading">
-                    <ul class="hero__list">
-                        <li>F</li>
-                        <li>r</li>
-                        <li>o</li>
-                        <li>n</li>
-                        <li>t</li>
-                        <li>-</li>
-                        <li>E</li>
-                        <li>n</li>
-                        <li>d</li>
-                        <!-- <li>&nbsp;</li> -->
-                    </ul>
-                    <ul class="hero__list">
-                        <li>D</li>
-                        <li>e</li>
-                        <li>v</li>
-                        <li>e</li>
-                        <li>l</li>
-                        <li>o</li>
-                        <li>p</li>
-                        <li>e</li>
-                        <li>r</li>
-                    </ul>
-                </h1>
-                <div class="hero__buttons">
-                    <a href="#projects" class="btn hero__btn--primary">Projects</a> 
-                    <a href="#contact" class="btn hero__btn--secondary">Contact</a>
-                </div>
-            </article>
-            <ul class="contact__links">
-                <li><a href="https://www.linkedin.com/in/natasha--johnson/" target="_blank" class="contact__link" rel="noopener"><i class="fab fa-linkedin-in"></i></a></li>
-                <li><a href="https://github.com/artsycoder533" target="_blank" class="contact__link"  rel="noopener"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://codepen.io/artsycoder" target="_blank" class="contact__link" rel="noopener"><i class="fab fa-codepen"  ></i></a></li>
-                <li><a href="https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q" target="_blank" class="contact__link" rel="noopener"><i class="fab fa-youtube"></i></a></li>
+      <!-- hero section-->
+      <section class="hero" id="home">
+        <article class="hero__container center">
+          <p class="hero__subheading">Natasha Johnson</p>
+          <h1 class="hero__heading">
+            <ul class="hero__list">
+              <li>F</li>
+              <li>r</li>
+              <li>o</li>
+              <li>n</li>
+              <li>t</li>
+              <li>-</li>
+              <li>E</li>
+              <li>n</li>
+              <li>d</li>
+              <!-- <li>&nbsp;</li> -->
             </ul>
+            <ul class="hero__list">
+              <li>D</li>
+              <li>e</li>
+              <li>v</li>
+              <li>e</li>
+              <li>l</li>
+              <li>o</li>
+              <li>p</li>
+              <li>e</li>
+              <li>r</li>
+            </ul>
+          </h1>
+          <div class="hero__buttons">
+            <a href="#projects" class="btn hero__btn--primary">Projects</a>
+            <a href="#contact" class="btn hero__btn--secondary">Contact</a>
+          </div>
+        </article>
+        <ul class="contact__links center">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/natasha--johnson/"
+              target="_blank"
+              class="contact__link"
+              rel="noopener"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/artsycoder533"
+              target="_blank"
+              class="contact__link"
+              rel="noopener"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://codepen.io/artsycoder"
+              target="_blank"
+              class="contact__link"
+              rel="noopener"
+              ><i class="fab fa-codepen"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q"
+              target="_blank"
+              class="contact__link"
+              rel="noopener"
+              ><i class="fab fa-youtube"></i
+            ></a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- projects section -->
+      <section class="projects center" id="projects">
+        <h2 class="section__title">Projects</h2>
+        <article class="projects__container center">
+          <div class="projects__card">
+            <div class="projects__image">
+              <img
+                src="cvbuilder_desktop.png"
+                alt="Image of Talk2Do App"
+                class="img"
+              />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">CV Builder</h3>
+              <p class="projects__description">
+                CV Builder is a Single Page Application that allows a user to
+                input details and then creates a formatted resume to be printed
+                or saved as a pdf. This app utilizes a multi-step form to input
+                user information, a custom progress bar to indicate which step
+                the user is in the process, and local storage to save the
+                information until a user chooses to clear the data. This app
+                solves the problem of not knowing how to format a resume, as
+                well as not knowing what information should be included in a
+                resume.
+              </p>
+              <p class="projects__stack">
+                Built With: React, Styled Components, React-To-Print and Web
+                Storage API
+              </p>
+              <div class="project__buttons">
+                <a
+                  href="https://artsycoder533.github.io/CV-Builder/"
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Link to CV Builder Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+                <a
+                  href="https://youtu.be/S-ACy0H7a8s"
+                  target="_blank"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Video Demo of CV Builder on Youtube"
+                  rel="noopener"
+                  >Video Demo</a
+                >
+                <a
+                  href="cvbuilder_lighthousescores.html"
+                  target="_blank"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Github Lighthouse Score Report for CV Builder"
+                  rel="noopener"
+                  >Lighthouse</a
+                >
+                <a
+                  href="https://github.com/artsycoder533/CV-Builder.git"
+                  target="_blank"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Github Repository of CV Builder"
+                  rel="noopener"
+                  >See Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img
+                src="talk2do_desktop.png"
+                alt="Image of Talk2Do App"
+                class="img"
+              />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">Talk2Do</h3>
+              <p class="projects__description">
+                Talk2Do is a single page CRUD application that allows a user to
+                add, edit, delete, and save notes without having to type. By
+                simply pressing the microphone button, the user can operate its
+                functionality by utilizing the Web Speech API. For added
+                convenience, the notes are saved to local storage via the Web
+                Storage API. Since the Web Speech API is still in its
+                experimental phase, there is limited browser/mobile
+                compatiblity.
+              </p>
+              <p class="projects__stack">
+                Built With: HTML5, CSS3, JavaScript, Web Speech API, and Web
+                Storage API
+              </p>
+              <div class="project__buttons">
+                <a
+                  href="https://artsycoder533.github.io/talk2do/"
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Link to Talk2Do Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+                <a
+                  href="https://youtu.be/fNI9YAqRuxM"
+                  target="_blank"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Video Demo of Talk2Do on Youtube"
+                  rel="noopener"
+                  >Video Demo</a
+                >
+                <a
+                  href="talk2do_lighthouse.html"
+                  target="_blank"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Github Lighthouse Score Report for Talk2Do"
+                  rel="noopener"
+                  >Lighthouse</a
+                >
+                <a
+                  href="https://github.com/artsycoder533/talk2do.git"
+                  target="_blank"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Github Repository of Talk2Do"
+                  rel="noopener"
+                  >See Code</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="projects__card">
+            <div class="projects__image">
+              <img
+                src="./vohps_desktop.png"
+                alt="image of visions of hope Psychological services, llc homepage"
+                class="img"
+              />
+            </div>
+            <div class="projects__text">
+              <h3 class="projects__title">
+                Visions of Hope Psychological Services, LLC
+              </h3>
+              <p class="projects__description">
+                This is a multi-page freelance website that I built for Visions
+                of Hope Psychological Services, LLC. They are a local private
+                practice based in Richmond, Virginia that needed to create their
+                online presence as well as generate leads and provide current
+                and potential clients with a space to learn more information
+                about their private practice.
+              </p>
+              <p class="projects__stack">Built With: HTML5, Sass, JavaScript</p>
+              <div class="project__buttons">
+                <a
+                  href="https://visionsofhope-va.com/"
+                  target="_blank"
+                  class="btn project__btn--primary"
+                  type="button"
+                  aria-label="Link to Visions Of Hope Psychological Services, LLC Live Site"
+                  rel="noopener"
+                  >Live Site</a
+                >
+                <a
+                  href="https://youtu.be/WwilzCSvx8k"
+                  class="btn project__btn--secondary"
+                  >Video Demo</a
+                >
+                <a
+                  href="visionsofhope_lighthouse.html"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Github Lighthouse Score Report for Visions of Hope Psychological Services, LLC"
+                  rel="noopener"
+                  >Lighthouse</a
+                >
+                <a
+                  href="https://github.com/artsycoder533/VOHPS-LLC"
+                  target="_blank"
+                  class="btn project__btn--secondary"
+                  type="button"
+                  aria-label="Link to Github Repository for Visions of Hope Psychological Services, LLC"
+                  rel="noopener"
+                  >See Code</a
+                >
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- about section -->
+      <section class="about" id="about">
+        <section class="center">
+          <h2 class="section__title">About Me</h2>
+          <article class="about__container">
+            <div class="about__bio">
+              <h3 class="skills_bio">Bio</h3>
+              <p>
+                I am a Self-Taught Front-End Developer/Freelancer who enjoys
+                creating responsive and interactive websites and applications. I
+                am always seeking to learn new skills and increase my knowledge
+                base. Even though my familiarity is with the Front End I am open
+                and interested in learning the back end as well.
+                <br />
+                <br />
+                I have a Bachelor of Science Degree in Psychology from Old
+                Dominion University along with 11 years of experience in
+                Corrections. I have always had a passion for helping others and
+                I now desire to use technology to provide solutions.
+              </p>
+            </div>
+            <div class="about__skills">
+              <h3 class="skills__title">Skills</h3>
+              <div class="about__skilllist">
+                <div>
+                  <i class="fab fa-html5" alt="Html5 logo"></i>
+                  <p>HTML 5</p>
+                </div>
+                <div>
+                  <i class="fab fa-css3-alt" alt="Css3 logo"></i>
+                  <p>CSS3</p>
+                </div>
+                <div>
+                  <i class="fab fa-sass" alt="Sass logo"></i>
+                  <p>Sass</p>
+                </div>
+                <div>
+                  <i class="fab fa-js-square" alt="JavaScript logo"></i>
+                  <p>JavaScript</p>
+                </div>
+                <div>
+                  <i class="fab fa-react" alt="React logo"></i>
+                  <p>React</p>
+                </div>
+                <div>
+                  <i class="fab fa-git" alt="Git logo"></i>
+                  <p>Git</p>
+                </div>
+                <div>
+                  <i class="fab fa-github" alt="Github logo"></i>
+                  <p>Github</p>
+                </div>
+                <div>
+                  <i class="fab fa-markdown" alt="Markdown logo"></i>
+                  <p>Markdown</p>
+                </div>
+              </div>
+            </div>
+          </article>
         </section>
+      </section>
 
-        <!-- projects section -->
-        <section class="projects" id="projects">
-            <h2 class="section__title">Projects</h2>
-            <article class="projects__container center">
-
-                <div class="projects__card">
-                    <div class="projects__image">
-                        <img src="cvbuilder_desktop.png" alt="Image of Talk2Do App" class="img">
-                    </div>
-                    <div class="projects__text">
-                        <h3 class="projects__title">CV Builder</h3>
-                        <p class="projects__description">
-                        CV Builder is a Single Page Application that allows a user to input details and then creates a formatted resume to be printed or saved as a pdf.  This app utilizes a multi-step form to input user information, a custom progress bar to indicate which step the user is in the process, and local storage to save the information until a user chooses to clear the data. This app solves the problem of not knowing how to format a resume, as well as not knowing what information should be included in a resume.
-                        </p>
-                        <p class="projects__stack">Built With: React, Styled Components, React-To-Print and Web Storage API</p>
-                        <div class="project__buttons">
-                            <a href="https://artsycoder533.github.io/CV-Builder/" target="_blank" class="btn project__btn--primary" type="button" aria-label="Link to CV Builder Live Site" rel="noopener">Live Site</a>
-                            <a href="https://youtu.be/S-ACy0H7a8s" target="_blank" class="btn project__btn--secondary" type="button" aria-label="Link to Video Demo of CV Builder on Youtube" rel="noopener">Video Demo</a>
-                            <a href="cvbuilder_lighthousescores.html" target="_blank" class="btn project__btn--secondary" type="button" aria-label="Link to Github Lighthouse Score Report for CV Builder" rel="noopener">Lighthouse</a>
-                            <a href="https://github.com/artsycoder533/CV-Builder.git" target="_blank" class="btn project__btn--secondary" type="button" aria-label="Link to Github Repository of CV Builder" rel="noopener">See Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__card">
-                    <div class="projects__image">
-                        <img src="talk2do_desktop.png" alt="Image of Talk2Do App" class="img">
-                    </div>
-                    <div class="projects__text">
-                        <h3 class="projects__title">Talk2Do</h3>
-                        <p class="projects__description">
-                        Talk2Do is a single page CRUD application that allows a user to add, edit, delete, and save notes without having to type.  By simply pressing the microphone button, the user can operate its functionality by utilizing the Web Speech API. For added convenience, the notes are saved to local storage via the Web Storage API. Since the Web Speech API is still in its experimental phase, there is limited browser/mobile compatiblity.
-                        </p>
-                        <p class="projects__stack">Built With: HTML5, CSS3, JavaScript, Web Speech API, and Web Storage API</p>
-                        <div class="project__buttons">
-                            <a href="https://artsycoder533.github.io/talk2do/" target="_blank" class="btn project__btn--primary" type="button" aria-label="Link to Talk2Do Live Site" rel="noopener">Live Site</a>
-                            <a href="https://youtu.be/fNI9YAqRuxM" target="_blank" class="btn project__btn--secondary" type="button" aria-label="Link to Video Demo of Talk2Do on Youtube" rel="noopener">Video Demo</a>
-                            <a href="talk2do_lighthouse.html" target="_blank" class="btn project__btn--secondary" type="button" aria-label="Link to Github Lighthouse Score Report for Talk2Do" rel="noopener">Lighthouse</a>
-                            <a href="https://github.com/artsycoder533/talk2do.git" target="_blank" class="btn project__btn--secondary" type="button" aria-label="Link to Github Repository of Talk2Do" rel="noopener">See Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="projects__card">
-                    <div class="projects__image">
-                        <img src="./vohps_desktop.png" alt="image of visions of hope Psychological services, llc homepage" class="img">
-                    </div>
-                    <div class="projects__text">
-                        <h3 class="projects__title">Visions of Hope Psychological Services, LLC</h3>
-                        <p class="projects__description">
-                        This is a multi-page freelance website that I built for Visions of Hope Psychological Services, LLC.  They are a local private practice based in Richmond, Virginia that needed to create their online presence as well as generate leads and provide current and potential clients with a space to learn more information about their private practice. 
-                        </p>
-                        <p class="projects__stack">Built With: HTML5, Sass, JavaScript</p>
-                        <div class="project__buttons">
-                            <a href="https://visionsofhope-va.com/" target="_blank" class="btn project__btn--primary" type="button" aria-label="Link to Visions Of Hope Psychological Services, LLC Live Site" rel="noopener">Live Site</a>
-                            <a href="https://youtu.be/WwilzCSvx8k" class="btn project__btn--secondary">Video Demo</a>
-                            <a href="visionsofhope_lighthouse.html" class="btn project__btn--secondary" type="button" aria-label="Link to Github Lighthouse Score Report for Visions of Hope Psychological Services, LLC" rel="noopener" >Lighthouse</a>
-                            <a href="https://github.com/artsycoder533/VOHPS-LLC" target="_blank" class="btn project__btn--secondary" type="button" aria-label="Link to Github Repository for Visions of Hope Psychological Services, LLC" rel="noopener">See Code</a>
-                        </div>
-                    </div>
-                </div>
-            </article>
-        </section> 
-        
-        <!-- about section -->
-        <section class="about center" id="about">
-            <h2 class="section__title">About Me</h2>
-            <article class="about__container">
-                <div class="about__bio">
-                    <h3 class="skills_bio">Bio</h3>  
-                    <p>I am a Self-Taught Front-End Developer/Freelancer who enjoys creating responsive and interactive websites and applications. I am always seeking to learn new skills and increase my knowledge base. Even though my familiarity is with the Front End I am open and interested in learning the back end as well.
-                    <br>
-                    <br>
-                    I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections. I have always had a passion for helping others and I now desire to use technology to provide solutions.
-                    </p>
-                </div>
-                <div class="about__skills">
-                    <h3 class="skills__title">Skills</h3>
-                    <div class="about__skilllist">
-                        <div>
-                            <i class="fab fa-html5" alt="Html5 logo"></i>
-                            <p>HTML 5</p>
-                        </div>
-                        <div>
-                            <i class="fab fa-css3-alt" alt="Css3 logo"></i>
-                            <p>CSS3</p>
-                        </div>
-                        <div>
-                            <i class="fab fa-sass" alt="Sass logo"></i>
-                            <p>Sass</p>
-                        </div>
-                        <div>
-                            <i class="fab fa-js-square" alt="JavaScript logo"></i>
-                            <p>JavaScript</p>
-                        </div>
-                        <div>
-                            <i class="fab fa-react" alt="React logo"></i>
-                            <p>React</p>
-                        </div>
-                        <div>
-                            <i class="fab fa-git" alt="Git logo"></i>
-                            <p>Git</p>
-                        </div>
-                        <div>
-                            <i class="fab fa-github" alt="Github logo"></i>
-                            <p>Github</p>
-                        </div>
-                        <div>
-                            <i class="fab fa-markdown" alt="Markdown logo"></i>
-                            <p>Markdown</p>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </article>
+      <!-- contact section -->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <section class="contact__container">
+          <form
+            action="https://formspree.io/f/moqybgqo"
+            method="POST"
+            class="contact__form"
+            id="form"
+          >
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required />
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required />
+            <label for="message">Message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
+            <button
+              class="btn contact__button--primary"
+              id="send"
+              type="submit"
+            >
+              Send
+            </button>
+            <span class="contact__success"></span>
+          </form>
         </section>
-
-        <!-- contact section -->
-        <section class="contact section" id="contact">
-            <h2 class="section__title">Contact Me</h2>
-            <section class="contact__container">
-                <form action="https://formspree.io/f/moqybgqo" method="POST" class="contact__form" id="form">
-                    <label for="name">Name:</label>
-                    <input type="text" name="name" id="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" name="email" id="email" required>
-                    <label for="message">Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-                    <button class="btn contact__button--primary" id="send" type="submit">Send</button>
-                    <span class="contact__success"></span>
-                </form>
-            </section>
-        </section>
+      </section>
     </main>
     <footer class="footer">
-        <small>&copy <span id="date"></span> Coded & Created By: Natasha Johnson</small>
+      <small
+        >&copy <span id="date"></span> Coded & Created By: Natasha
+        Johnson</small
+      >
     </footer>
-
-</body>
+  </body>
 </html>
