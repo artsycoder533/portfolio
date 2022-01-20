@@ -344,6 +344,7 @@ SIDEBAR
 .sidebar__link:hover {
 	color: transparent;
 }
+
 .sidebar__link:hover::before {
 	color: rgb(41, 208, 238);
 	transform: translate(10px, -3px);
@@ -390,7 +391,8 @@ hero section
 	mix-blend-mode: difference;
 	flex: 1;
 	position: relative;
-	top: 60px;
+	/* top: 60px; */
+	/* height: 100%; */
 }
 
 /* heading transition */
@@ -554,6 +556,7 @@ li:nth-child(19){
 	display: flex;
 	justify-content: space-between;
 	padding: 2rem;
+	/* height: 100%; */
 }
 
 .contact__link {
