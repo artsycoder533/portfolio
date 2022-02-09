@@ -367,12 +367,6 @@ hero section
 .hero {
 	display: flex;
 	flex-direction: column;
-	background: linear-gradient(
-		to bottom right, 
-		rgb(41, 208, 238) 0%,
-		rgb(41, 208, 238) 30%,
-		rgb(15, 15, 15)30%,
-		rgb(15, 15, 15) 100%);
 	align-items: center;
 	justify-content: center;
 	width: 100%;
@@ -388,11 +382,7 @@ hero section
 	justify-content: center;
 	gap: 1rem;
 	color:rgb(41, 208, 238);
-	mix-blend-mode: difference;
-	flex: 1;
 	position: relative;
-	/* top: 60px; */
-	/* height: 100%; */
 }
 
 /* heading transition */
@@ -403,7 +393,9 @@ hero section
 .hero__list li {
 	letter-spacing: 2px;
 	transition: 0.5s;
-	font-size: clamp(4rem, 6vw, 8rem);
+	font-size: clamp(2rem, 3vw, 4rem);
+	color: white;
+	font-weight: lighter;
 }
 
 .hero__list:hover li {
@@ -501,8 +493,8 @@ li:nth-child(19){
 	cursor: pointer;
 	text-align: center;
 	background: transparent;
-	color:white;
-	border: 2px solid border
+	border: 2px solid rgb(41, 208, 238);
+	color: rgb(41, 208, 238);
 	
 }
 
@@ -537,7 +529,7 @@ li:nth-child(19){
 .hero__subheading {
 	margin-bottom: 1rem;
 	color: rgb(41, 208, 238);
-	font-size: 2rem;
+	font-size: clamp(4rem, 5rem, 6rem);
 }
 
 .hero__heading {
@@ -555,8 +547,7 @@ li:nth-child(19){
 .contact__links {
 	display: flex;
 	justify-content: space-between;
-	padding: 2rem;
-	/* height: 100%; */
+	padding: 2rem;	
 }
 
 .contact__link {
@@ -589,20 +580,21 @@ projects section
 	width: 100%;
 	display: grid;
 	place-items: center;
+	margin-bottom: 3rem;
 }
 
 .projects__container {
 	display: flex;
 	flex-direction: column;
 	gap: 3rem;
+	
 }
 
 .projects__card {
 	width: 100%;
-	height: 100%;
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 4rem;
+	gap: 3rem;
 }
 
 .projects__text {
@@ -651,6 +643,7 @@ projects section
 
 .project__btn--secondary {
 	color: white;
+	border: 2px solid rgb(41, 208, 238);
 }
 
 .project__btn--secondary:hover {
@@ -714,6 +707,8 @@ projects section
 /* about section */
 .about {
 	width: 100%;
+	min-height: 100vh;
+	display: flex;
 }
 
 .about__container {
@@ -777,9 +772,9 @@ projects section
 
 /* contact section */
 .contact {
-	min-height: calc(100vh - 50px - 75px);
 	display: grid;
 	place-items: center;
+	margin-bottom: 4rem;
 }
 
 .contact__container {
@@ -807,15 +802,15 @@ input {
 	padding: 0.5rem 0.5rem 0.5rem 1rem;
 	background: rgb(240, 240, 240);
 	font-size: 1rem;
-	border-radius: 20px;
 	border: none;
+	border-radius: 3px;
 }
 
 textarea {
 	background: rgb(240, 240, 240);
 	font-size: 1rem;
 	padding: 0.5rem 0.5rem 0.5rem 1rem;
-	border-radius: 20px;
+	border-radius: 3px;
 	border: none;
 }
 
