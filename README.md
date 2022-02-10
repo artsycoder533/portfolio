@@ -30,18 +30,34 @@ I have a Bachelor of Science Degree in Psychology from Old Dominion University a
 
 ### Screenshots
 
+![Mobile Screenshot](vohps_mobile.png)
+![Desktop Screenshot](vohps_desktop.png)
+
+![Mobile Screenshot](atlas_mobile.png)
+![Desktop Screenshot](atlas_desktop.png)
+
 ![Mobile Screenshot](cvbuilder_mobile.png)
 ![Desktop Screenshot](cvbuilder_desktop.png)
 
 ![Mobile Screenshot](talk2do_mobile.png)
 ![Desktop Screenshot](talk2do_desktop.png)
 
-![Mobile Screenshot](vohps_mobile.png)
-![Desktop Screenshot](vohps_desktop.png)
 
 ### Links
 
 Below are links to my featured projects:
+
+Visions of Hope Psychological Services, LLC:
+
+- Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
+- Live Site URL: [https://visionsofhope-va.com/](https://visionsofhope-va.com/)
+- Video Demo on Youtube: [https://youtu.be/WwilzCSvx8k](https://youtu.be/WwilzCSvx8k)
+
+Atlas Behavioral Health and Wellness (In Progress):
+
+- Repository URL: [https://github.com/artsycoder533/atlas-.git](https://github.com/artsycoder533/atlas-.git)
+- Live Site URL: [https://artsycoder533.github.io/atlas-/](https://artsycoder533.github.io/atlas-/)
+- Video Demo on Youtube: []()
 
 CV Builder: 
 
@@ -55,18 +71,8 @@ Talk2Do:
 - Live Site URL: [https://artsycoder533.github.io/talk2do/](https://artsycoder533.github.io/talk2do/)
 - Video Demo on Youtube: [https://youtu.be/fNI9YAqRuxM](https://youtu.be/fNI9YAqRuxM)
 
-Visions of Hope Psychological Services, LLC:
 
-- Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
-- Live Site URL: [https://visionsofhope-va.com/](https://visionsofhope-va.com/)
-- Video Demo on Youtube: [https://youtu.be/WwilzCSvx8k](https://youtu.be/WwilzCSvx8k)
 
-I am currently working on the following:
-
-Productiv:
-- Repository URL: [https://github.com/artsycoder533/productiv.git](https://github.com/artsycoder533/productiv.git)
-- Live Site URL: [https://artsycoder533.github.io/productiv/](https://artsycoder533.github.io/productiv/)
-- Video Demo on Youtube: [https://youtube.com/playlist?list=PL2WqH02famSWoIjSa2kHPvw6u7Qzsmshx](https://youtube.com/playlist?list=PL2WqH02famSWoIjSa2kHPvw6u7Qzsmshx)
 
 
 ### Built with
