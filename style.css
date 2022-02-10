@@ -393,7 +393,7 @@ hero section
 .hero__list li {
 	letter-spacing: 2px;
 	transition: 0.5s;
-	font-size: clamp(2rem, 3vw, 4rem);
+	font-size: clamp(2rem, 2.5rem, 3rem);
 	color: white;
 	font-weight: lighter;
 }
@@ -547,7 +547,7 @@ li:nth-child(19){
 .contact__links {
 	display: flex;
 	justify-content: space-between;
-	padding: 2rem;	
+	padding-top: 2rem;	
 }
 
 .contact__link {
@@ -857,3 +857,4 @@ textarea {
 	border-radius: 10px;
 }
 
+}
