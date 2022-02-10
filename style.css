@@ -774,7 +774,8 @@ projects section
 .contact {
 	display: grid;
 	place-items: center;
-	margin-bottom: 4rem;
+	margin-top: 4rem;
+	min-height: 80vh;
 }
 
 .contact__container {
@@ -841,6 +842,12 @@ textarea {
 	height: 50px;
 }
 
+@media screen and (min-width: 992px){
+	.contact {
+		margin-top: 0;
+	}
+}
+
 /* scrollbar */
 ::-webkit-scrollbar {
 	width: 1.5em;
@@ -857,4 +864,3 @@ textarea {
 	border-radius: 10px;
 }
 
-}
