@@ -610,6 +610,7 @@ projects section
 .projects__title {
 	padding: 1rem 0;
 	color:rgb(41, 208, 238);
+	font-size: 2rem;
 }
 
 .projects__stack {
@@ -617,15 +618,19 @@ projects section
 }
 
 .project__buttons {
-	display: grid;
-	grid-template-columns: 1fr;
+	display: flex;
+	/* grid-template-columns: 1fr; */
 	gap: 1rem;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 1rem;
 }
 
 .project__btn--primary,
 .project__btn--secondary {
-	width: 100%;
-	margin-bottom: 1rem;
+	/* width: 100%; */
+	/* margin-bottom: 1rem; */
+	padding: 0 0.25rem;
 }
 
 .project__btn--primary {
