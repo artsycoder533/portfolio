@@ -74,7 +74,7 @@ a {
 .section__title {
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	letter-spacing: 0.05rem;
 	padding: 2rem;
 	color: rgb(41, 208, 238);
@@ -582,7 +582,10 @@ projects section
 	width: 100%;
 	display: grid;
 	place-items: center;
-	margin-bottom: 3rem;
+	/* margin-bottom: 3rem; */
+	/* border: 1px solid red; */
+	background: rgb(27, 27, 27);
+	padding-bottom: 4rem;
 }
 
 .projects__container {
@@ -590,6 +593,10 @@ projects section
 	flex-direction: column;
 	gap: 3rem;
 	
+}
+
+.projects .section__title {
+	margin: 4rem 0;
 }
 
 .projects__card {
@@ -717,7 +724,6 @@ projects section
 .about {
 	width: 100%;
 	min-height: 100vh;
-	display: flex;
 }
 
 .about__container {
@@ -725,6 +731,10 @@ projects section
 	display: flex; 
 	flex-direction: column;
 	padding: 1rem;
+}
+
+.about .section__title {
+	margin: 4rem 0;
 }
 
 .about__bio {
@@ -784,9 +794,7 @@ projects section
 	.about__container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
-		-moz-column-gap: 4rem;
-		     column-gap: 4rem;
-			 padding-bottom: 0;
+		gap: 4rem;
 	}
 }
 
@@ -795,7 +803,8 @@ projects section
 	display: grid;
 	place-items: center;
 	margin-top: 4rem;
-	min-height: 80vh;
+	min-height: calc(100vh - 50px);
+	background: rgb(27, 27, 27);
 }
 
 .contact__container {
@@ -860,6 +869,9 @@ textarea {
 	text-align: center;
 	padding: 0.5rem;
 	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 @media screen and (min-width: 992px){
