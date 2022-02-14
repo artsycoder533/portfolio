@@ -578,7 +578,7 @@ projects section
 	display: grid;
 	place-items: center;
 	background: rgb(20, 20, 20);
-	padding-bottom: 4rem;
+	padding-bottom: 8rem;
 }
 
 .projects__container {
