@@ -630,7 +630,8 @@ projects section
 .project__btn--secondary {
 	/* width: 100%; */
 	/* margin-bottom: 1rem; */
-	padding: 0 0.25rem;
+	padding: 0.15rem 0.25rem;
+	text-align: center;
 }
 
 .project__btn--primary {
