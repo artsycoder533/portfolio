@@ -499,7 +499,8 @@ li:nth-child(19){
 }
 
 .hero__btn--secondary:hover {
-	background:rgb(41, 208, 238)
+	background:rgb(41, 208, 238);
+	color: black;
 }
 
 .hero__btn--secondary:visited {
@@ -546,12 +547,13 @@ li:nth-child(19){
 
 .contact__links {
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-start;
 	padding-top: 2rem;	
 }
 
 .contact__link {
 	font-size: 2rem;
+	margin: 1rem;
 }
 
 .contact__link:link {
@@ -648,6 +650,7 @@ projects section
 
 .project__btn--secondary:hover {
 	background:rgb(41, 208, 238);
+	color: black;
 }
 
 .project__btn--secondary:visited {
