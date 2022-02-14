@@ -732,6 +732,17 @@ projects section
 	line-height: 1.7;
 }
 
+.about__link {
+	display: inline-block;
+	text-decoration: underline;
+	/* font-weight: bold; */
+	color:rgb(41, 208, 238);
+}
+
+.about__link:hover, .about__link:focus {
+	font-weight: bold;
+}
+
 .skills__title, .skills_bio{
 	color:rgb(41, 208, 238);
 	padding: 1rem 0;
