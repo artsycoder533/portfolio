@@ -503,10 +503,6 @@ li:nth-child(19){
 	color: black;
 }
 
-.hero__btn--secondary:visited {
-	color: rgb(15, 15, 15);
-}
-
 
 .hero__btn--primary {
 	background: rgb(41, 208, 238); 
