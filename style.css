@@ -577,9 +577,7 @@ projects section
 	width: 100%;
 	display: grid;
 	place-items: center;
-	/* margin-bottom: 3rem; */
-	/* border: 1px solid red; */
-	background: rgb(27, 27, 27);
+	background: rgb(20, 20, 20);
 	padding-bottom: 4rem;
 }
 
@@ -738,7 +736,6 @@ projects section
 .about__link {
 	display: inline-block;
 	text-decoration: underline;
-	/* font-weight: bold; */
 	color:rgb(41, 208, 238);
 }
 
@@ -796,7 +793,7 @@ projects section
 	place-items: center;
 	margin-top: 4rem;
 	min-height: calc(100vh - 50px);
-	background: rgb(27, 27, 27);
+	background: rgb(20, 20, 20);
 }
 
 .contact__container {
