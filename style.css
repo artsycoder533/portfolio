@@ -621,17 +621,14 @@ projects section
 
 .project__buttons {
 	display: flex;
-	/* grid-template-columns: 1fr; */
 	gap: 1rem;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: flex-start;
 	margin-top: 1rem;
 }
 
 .project__btn--primary,
 .project__btn--secondary {
-	/* width: 100%; */
-	/* margin-bottom: 1rem; */
 	padding: 0.15rem 0.25rem;
 	text-align: center;
 }
@@ -711,7 +708,7 @@ projects section
 	}
 
 	.project__buttons {
-		grid-template-columns: 1fr 1fr;
+		flex-wrap: nowrap;
 	}
 }
 
