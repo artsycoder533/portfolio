@@ -30,11 +30,11 @@ I have a Bachelor of Science Degree in Psychology from Old Dominion University a
 
 ### Screenshots
 
-![Mobile Screenshot](vohps_mobile.png)
-![Desktop Screenshot](vohps_desktop.png)
-
 ![Mobile Screenshot](atlas_mobile.png)
 ![Desktop Screenshot](atlas_desktop.png)
+
+![Mobile Screenshot](vohps_mobile.png)
+![Desktop Screenshot](vohps_desktop.png)
 
 ![Mobile Screenshot](cvbuilder_mobile.png)
 ![Desktop Screenshot](cvbuilder_desktop.png)
@@ -56,7 +56,7 @@ Visions of Hope Psychological Services, LLC:
 Atlas Behavioral Health and Wellness (In Progress):
 
 - Repository URL: [https://github.com/artsycoder533/atlas-.git](https://github.com/artsycoder533/atlas-.git)
-- Live Site URL: [https://artsycoder533.github.io/atlas-/](https://artsycoder533.github.io/atlas-/)
+- Live Site URL: [https://artsycoder533.github.io/atlas-/](https://www.atlasbhw.com/)
 - Video Demo on Youtube: []()
 
 CV Builder: 
@@ -70,8 +70,6 @@ Talk2Do:
 - Repository URL: [https://github.com/artsycoder533/talk2do.git](https://github.com/artsycoder533/talk2do.git)
 - Live Site URL: [https://artsycoder533.github.io/talk2do/](https://artsycoder533.github.io/talk2do/)
 - Video Demo on Youtube: [https://youtu.be/fNI9YAqRuxM](https://youtu.be/fNI9YAqRuxM)
-
-
 
 
 
