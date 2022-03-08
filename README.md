@@ -57,7 +57,7 @@ Atlas Behavioral Health and Wellness (In Progress):
 
 - Repository URL: [https://github.com/artsycoder533/atlas-.git](https://github.com/artsycoder533/atlas-.git)
 - Live Site URL: [https://artsycoder533.github.io/atlas-/](https://www.atlasbhw.com/)
-- Video Demo on Youtube: []()
+- Video Demo on Youtube: [https://youtu.be/vayuWRdryeM](https://youtu.be/vayuWRdryeM)
 
 CV Builder: 
 
