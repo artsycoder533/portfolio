@@ -6,8 +6,7 @@ Personal portfolio website that showcases my skills through featured projects.
 
 - [Overview](#overview)
   - [Skills](#skills)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
+  - [Projects](#projects)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
@@ -27,23 +26,7 @@ I have a Bachelor of Science Degree in Psychology from Old Dominion University a
 - React
 - Styled Components
 
-
-### Screenshots
-
-![Mobile Screenshot](atlas_mobile.png)
-![Desktop Screenshot](atlas_desktop.png)
-
-![Mobile Screenshot](vohps_mobile.png)
-![Desktop Screenshot](vohps_desktop.png)
-
-![Mobile Screenshot](cvbuilder_mobile.png)
-![Desktop Screenshot](cvbuilder_desktop.png)
-
-![Mobile Screenshot](talk2do_mobile.png)
-![Desktop Screenshot](talk2do_desktop.png)
-
-
-### Links
+### Projects
 
 Below are links to my featured projects:
 
@@ -53,11 +36,21 @@ Below are links to my featured projects:
 - Live Site URL: [https://artsycoder533.github.io/1st-Third/](https://artsycoder533.github.io/1st-Third/)
 - Video Demo Playlist on Youtube: [https://www.youtube.com/playlist?list=PL2WqH02famSU0LDxXBtOHKcplOsu6QYqE](https://www.youtube.com/playlist?list=PL2WqH02famSU0LDxXBtOHKcplOsu6QYqE)
 
+- Screenshots:
+
+  - ![Mobile Screenshot](1stthird_mobile.png)
+  - ![Desktop Screenshot](1stthird_desktop.png)
+
 CV Builder: 
 
 - Repository URL: [https://github.com/artsycoder533/CV-Builder.git](https://github.com/artsycoder533/CV-Builder.git)
 - Live Site URL: [https://artsycoder533.github.io/CV-Builder/](https://artsycoder533.github.io/CV-Builder/)
 - Video Demo on Youtube: [https://youtu.be/S-ACy0H7a8s](https://youtu.be/S-ACy0H7a8s)
+
+- Screenshots:
+
+  - ![Mobile Screenshot](cvbuilder_mobile.png)
+  - ![Desktop Screenshot](cvbuilder_desktop.png)
 
 Atlas Behavioral Health and Wellness (In Progress):
 
@@ -65,11 +58,21 @@ Atlas Behavioral Health and Wellness (In Progress):
 - Live Site URL: [https://artsycoder533.github.io/atlas-/](https://www.atlasbhw.com/)
 - Video Demo on Youtube: [https://youtu.be/vayuWRdryeM](https://youtu.be/vayuWRdryeM)
 
+- Screenshots:
+
+  - ![Mobile Screenshot](atlas_mobile.png)
+  - ![Desktop Screenshot](atlas_desktop.png)
+
 Visions of Hope Psychological Services, LLC:
 
 - Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
 - Live Site URL: [https://visionsofhope-va.com/](https://visionsofhope-va.com/)
 - Video Demo on Youtube: [https://youtu.be/WwilzCSvx8k](https://youtu.be/WwilzCSvx8k)
+
+- Screenshots:
+  - ![Mobile Screenshot](vohps_mobile.png)
+  - ![Desktop Screenshot](vohps_desktop.png)
+
 
 Talk2Do:
 
@@ -77,6 +80,10 @@ Talk2Do:
 - Live Site URL: [https://artsycoder533.github.io/talk2do/](https://artsycoder533.github.io/talk2do/)
 - Video Demo on Youtube: [https://youtu.be/fNI9YAqRuxM](https://youtu.be/fNI9YAqRuxM)
 
+- Screenshots:
+
+  - ![Mobile Screenshot](talk2do_mobile.png)
+  - ![Desktop Screenshot](talk2do_desktop.png)
 
 
 ### Built with
@@ -90,4 +97,6 @@ Talk2Do:
 ## Author
 
 - Personal Portfolio - [https://natashajohnson.dev/](https://natashajohnson.dev/)
+- LinkedIn - [https://www.linkedin.com/in/natasha--johnson/](https://www.linkedin.com/in/natasha--johnson/)
+- YouTube Channel - [https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q](https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q)
 
