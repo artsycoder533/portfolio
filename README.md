@@ -1,6 +1,6 @@
 # Peronal Portfolio
 
-This is my personal portfolio website that showcases my featured projects, skills, and about me.
+Personal portfolio website that showcases my skills through featured projects.
 
 ## Table of contents
 
@@ -14,9 +14,9 @@ This is my personal portfolio website that showcases my featured projects, skill
 
 ## Overview
 
-I am a Self-Taught Front-End Developer/Freelancer who enjoys creating responsive and interactive websites and applications. I am always seeking to learn new skills and increase my knowlege base. Even though my famililarity is with the Front End I am open and interested in learning the back end as well.
+I am a Self-Taught Front-End Developer/Freelancer who genuinely enjoys creating responsive and interactive websites and applications. I am always seeking to learn new skills and increase my knowledge base. I created a [YouTube channel](https://www.youtube.com/channel/UCOGjYAACGwNLzYcTpXnvZ_Q) to track my progress, as well as share demo videos of projects I am currently working on.
 
-I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections. I have always had a passion for helping others and I now desire to use technology to provide solutions.
+I have a Bachelor of Science Degree in Psychology from Old Dominion University along with 11 years of experience in Corrections, primarily as a Counselor. I have always had a passion for helping others and I now desire to use technology to provide solutions.
 
 ### Skills
 
