@@ -47,11 +47,17 @@ I have a Bachelor of Science Degree in Psychology from Old Dominion University a
 
 Below are links to my featured projects:
 
-Visions of Hope Psychological Services, LLC:
+1st & Third:
 
-- Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
-- Live Site URL: [https://visionsofhope-va.com/](https://visionsofhope-va.com/)
-- Video Demo on Youtube: [https://youtu.be/WwilzCSvx8k](https://youtu.be/WwilzCSvx8k)
+- Repository URL: [https://github.com/artsycoder533/1st-Third.git](https://github.com/artsycoder533/1st-Third.git)
+- Live Site URL: [https://artsycoder533.github.io/1st-Third/](https://artsycoder533.github.io/1st-Third/)
+- Video Demo Playlist on Youtube: [https://www.youtube.com/playlist?list=PL2WqH02famSU0LDxXBtOHKcplOsu6QYqE](https://www.youtube.com/playlist?list=PL2WqH02famSU0LDxXBtOHKcplOsu6QYqE)
+
+CV Builder: 
+
+- Repository URL: [https://github.com/artsycoder533/CV-Builder.git](https://github.com/artsycoder533/CV-Builder.git)
+- Live Site URL: [https://artsycoder533.github.io/CV-Builder/](https://artsycoder533.github.io/CV-Builder/)
+- Video Demo on Youtube: [https://youtu.be/S-ACy0H7a8s](https://youtu.be/S-ACy0H7a8s)
 
 Atlas Behavioral Health and Wellness (In Progress):
 
@@ -59,11 +65,11 @@ Atlas Behavioral Health and Wellness (In Progress):
 - Live Site URL: [https://artsycoder533.github.io/atlas-/](https://www.atlasbhw.com/)
 - Video Demo on Youtube: [https://youtu.be/vayuWRdryeM](https://youtu.be/vayuWRdryeM)
 
-CV Builder: 
+Visions of Hope Psychological Services, LLC:
 
-- Repository URL: [https://github.com/artsycoder533/CV-Builder.git](https://github.com/artsycoder533/CV-Builder.git)
-- Live Site URL: [https://artsycoder533.github.io/CV-Builder/](https://artsycoder533.github.io/CV-Builder/)
-- Video Demo on Youtube: [https://youtu.be/S-ACy0H7a8s](https://youtu.be/S-ACy0H7a8s)
+- Repository URL: [https://github.com/artsycoder533/VOHPS-LLC.git](https://github.com/artsycoder533/VOHPS-LLC.git)
+- Live Site URL: [https://visionsofhope-va.com/](https://visionsofhope-va.com/)
+- Video Demo on Youtube: [https://youtu.be/WwilzCSvx8k](https://youtu.be/WwilzCSvx8k)
 
 Talk2Do:
 
