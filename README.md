@@ -88,11 +88,10 @@ Talk2Do:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS
-- Javascript
-- Mobile-first workflow
-
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
 
 ## Author
 
